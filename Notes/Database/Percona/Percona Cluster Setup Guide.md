@@ -23,8 +23,8 @@ edit [/home/sysadmin/firewall.sh](file:///home/sysadmin/firewall.sh)
 
 Add these lines,
 
-#Allow inbound ports for Percona SQL
-```
+# Allow inbound ports for Percona SQL
+```bash
 iptables -A INPUT -p tcp --dport 3306 -m state --state NEW -j ACCEPT
 iptables -A INPUT -p tcp --dport 4444 -m state --state NEW -j ACCEPT
 iptables -A INPUT -p tcp --dport 4567 -m state --state NEW -j ACCEPT
@@ -50,27 +50,36 @@ Setup second drive with desired size of /data partition.
 
 Set the new partition
 
-`sudo fdisk /dev/sdb`
+```bash
+sudo fdisk /dev/sdb
+```
+
 press n for new partition
 press p for primary volume
 Accept the defaults for sizes
 press w to write, there may be an error about re-reading failing.  It can be ignored. 
 Restart the system
 
-```
+```bash
 sudo mkfs -t ext4 /dev/sdb1
 sudo mkdir /data
 sudo mount -t ext4 /dev/sdb1 /data/
 ```
 
 Verify it mounts with:
-`df -h`
+```bash
+df -h
+```
 
 add the following line to /etc/fstab
-`/dev/sdb1       /data           ext4    errors=remount-ro       0       1`
+```
+/dev/sdb1       /data           ext4    errors=remount-ro       0       1
+```
 
 restart the system and verify /data mounts with
-`df -h`
+```bash
+df -h
+```
 
 
 
@@ -78,7 +87,7 @@ restart the system and verify /data mounts with
 
 ## Install Percona on all DB Servers
 
-```
+```bash
 sudo apt remove apparmor
 wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
 sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
@@ -87,11 +96,14 @@ sudo apt install percona-xtradb-cluster-full-57
 ```
 
 During install set the mysql root password.   
-`sudo service mysql stop`
+
+```bash
+sudo service mysql stop
+```
 
 Set SQL to use the data drive:
 
-```
+```bash
 cd /
 cd var
 cd lib
@@ -176,7 +188,7 @@ Check the following fields, make sure they look like the following.
 
 ## Create the sstuser, this will be used for inter-process communication between the db servers.
 
-```
+```sql
 CREATE USER 'sstuser'@'localhost' IDENTIFIED BY '<sst_password>';
 GRANT RELOAD, LOCK TABLES, PROCESS, REPLICATION CLIENT ON *.* TO 'sstuser'@'localhost';
 FLUSH PRIVILEGES;
@@ -334,7 +346,7 @@ Check the following fields, make sure they look like the following.
 
 `sudo mysql -u root -p`
 
-```
+```sql
 CREATE USER 'proxysql'@'%' IDENTIFIED BY '<proxy_password>';
 GRANT ALL ON *.* TO 'proxysql'@'%';
 FLUSH PRIVILEGES;
@@ -343,7 +355,7 @@ FLUSH PRIVILEGES;
 
 ## On the proxysql server:
 
-```
+```bash
 sudo apt remove apparmor
 wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
 sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
@@ -422,7 +434,7 @@ Verify the old password:
 `SELECT * FROM global_variables where variable_name = 'admin-admin_credentials';`
 
 Update to the new password:
-```
+```sql
 UPDATE global_variables SET variable_value='admin:<password>' WHERE variable_name='admin-admin_credentials';
 SAVE ADMIN VARIABLES TO DISK;
 LOAD ADMIN VARIABLES TO RUNTIME;
@@ -441,7 +453,7 @@ Make sure to update the admin password in /etc/proxysql-admin.cnf in case Proxys
 
 ## To refresh Proxy SQL if new users get added:
 
-```
+```bash
 sudo proxysql-admin --config-file=/etc/proxysql-admin.cnf --disable
 sudo proxysql-admin --config-file=/etc/proxysql-admin.cnf --enable --syncusers
 ```

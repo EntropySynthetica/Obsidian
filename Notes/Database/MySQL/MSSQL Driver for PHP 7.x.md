@@ -14,7 +14,7 @@ Ref Page:
 
 ## Install MS SQL Tools 
 
-```
+```bash
 sudo -s -E
 curl <https://packages.microsoft.com/keys/microsoft.asc> | apt-key add -
 curl <https://packages.microsoft.com/config/ubuntu/16.04/prod.list> > /etc/apt/sources.list.d/mssql-release.list
@@ -30,12 +30,14 @@ Verify PHP version with (php -v) Place that version in the php7.x-dev install in
 ## Test DB Connection with 
 
 
-`/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P yourpassword -Q "SELECT @@VERSION"`
+```bash
+/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P yourpassword -Q "SELECT @@VERSION"
+```
 
 
 ## Next Install the PHP drivers
 
-```
+```bash
 sudo mount -o remount,exec /tmp/
 sudo pecl install sqlsrv
 sudo pecl install pdo_sqlsrv
@@ -51,21 +53,27 @@ exit
 
 ```
 vi connect.php
-	<?php
-		$serverName = "localhost";
-		$connectionOptions = array(
-			"Database" => "SampleDB",
-			"Uid" => "sa",
-			"PWD" => "your_password"
-		);
-		//Establishes the connection
-		$conn = sqlsrv_connect($serverName, $connectionOptions);
-		if($conn)
-			echo "Connected!"
-	?>
 ```
 
-`php connect.php`
+
+```php
+<?php
+	$serverName = "localhost";
+	$connectionOptions = array(
+		"Database" => "SampleDB",
+		"Uid" => "sa",
+		"PWD" => "your_password"
+	);
+	//Establishes the connection
+	$conn = sqlsrv_connect($serverName, $connectionOptions);
+	if($conn)
+		echo "Connected!"
+?>
+```
+
+```bash
+php connect.php
+```
 
 
 
