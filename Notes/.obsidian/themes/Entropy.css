@@ -44,9 +44,9 @@
   --text-error: #ff79c6;
   --text-error-hover: #ff79c6;
   --text-selection: #6272a4; /* Chromium precess this color with alpha channel */
-  --text-on-accent: #bd93f9;
+  --text-on-accent: #f8f8f2;
   --interactive-normal: #6c7bff;
-  --interactive-hover: #9655ff;
+  --interactive-hover: #a166ff;
   --interactive-accent: #6c7bff;
   --interactive-accent-rgb: 123, 108, 217;
   --interactive-accent-hover: #9655ff;

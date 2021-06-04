@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Youtube-DL.md",
-            "mode": "source"
+            "file": "Kubernetes/Kubectl Notes.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Youtube-DL.md",
+                "file": "Kubernetes/Kubectl Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,6 +87,8 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
     "Youtube-DL.md",
     "VSCode_Settings.md",
     "VMWare_PowerCLI_in_Powershell.md",
@@ -94,8 +96,6 @@
     "Vagrant.md",
     "Useful_regex_searches.md",
     "Update_Splunk_GoDaddy_SSL.md",
-    "Ubuntu_Account_Lockout.md",
-    "Trim_end_of_MP3_file.md",
-    "tmux_Cheat_Sheet.md"
+    "Ubuntu_Account_Lockout.md"
   ]
 }
