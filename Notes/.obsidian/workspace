@@ -7,11 +7,8 @@
         "id": "f90070b2bda6f417",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Kubernetes/Kubectl Notes.md",
-            "mode": "preview"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -40,7 +37,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": false,
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubectl Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,10 +83,10 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl Notes.md",
     "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Untitled.md",
     "Git Cheat Sheet.md",
-    "Kubectl Notes.md",
-    "Untitled.md"
+    "Kubectl Notes.md"
   ]
 }

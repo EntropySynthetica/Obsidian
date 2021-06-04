@@ -1,11 +1,13 @@
 # kubectl Notes
 
+#kubernetes
+
 The Kubernetes command-line tool, kubectl, allows you to run commands against Kubernetes clusters. You can use kubectl to deploy applications, inspect and manage cluster resources, and view logs. For a complete list of kubectl operations, see https://kubernetes.io/docs/reference/kubectl/overview/
 
 ## Install kubectl manually
 Download the latest kubectl
-```
-curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+```bash
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetesrelease/release/stable.txt`/bin/linux/amd64/kubectl
 ```
 
 or grab a specific version. Make sure the version of Kubectl you run is same or newer than your Kubernetes cluster. 
@@ -24,7 +26,7 @@ Check what version of kubectl and the version of k8s you are managing
 `kubectl version`
 
 ## Install kubectl via APT on Ubuntu
-```
+```bash
 sudo apt-get update && sudo apt-get install -y apt-transport-https
 curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 echo "deb https://apt.kubernetes.io/ kubernetes-xenial main" | sudo tee -a /etc/apt/sources.list.d/kubernetes.list
@@ -48,7 +50,7 @@ Multiple sites can be chained together seperated by a :
 
 Bash script to automatically add any .yaml files in the .kube directory into the KUBECONFIG enviromental variable.
 
-```
+```bash
 for f in `ls ~/.kube/ | grep config.\*.yaml`
 do 
     export KUBECONFIG="$HOME/.kube/$f:$KUBECONFIG"; 
@@ -60,7 +62,7 @@ kubecontext is a bash script that gives a quicky way to change context
 kubens is a bash script that gives a quick way to change namespace
 Repo at: https://github.com/ahmetb/kubectx
 
-```
+```bash
 sudo git clone https://github.com/ahmetb/kubectx /opt/kubectx
 sudo ln -s /opt/kubectx/kubectx /usr/local/bin/kubecontext
 sudo ln -s /opt/kubectx/kubens /usr/local/bin/kubens
@@ -76,7 +78,7 @@ Add Alias for kubectl
 Krew itself is a kubectl plugin that is installed and updated via Krew (yes, Krew self-hosts).
 
 Run this command in your terminal to download and install krew:
-```
+```bash
 (
   set -x; cd "$(mktemp -d)" &&
   curl -fsSLO "https://github.com/kubernetes-sigs/krew/releases/latest/download/krew.tar.gz" &&
@@ -87,7 +89,9 @@ Run this command in your terminal to download and install krew:
 ```
 
 Add $HOME/.krew/bin directory to your PATH environment variable. To do this, update your .bashrc or .zshrc file and append the following line:
-`export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"`
+```bash
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+```
 
 ## Install KubeCTL Neat
 Remove clutter from Kubernetes manifests to make them more readable.

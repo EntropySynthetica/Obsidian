@@ -1,9 +1,11 @@
 # Git Cheat Sheet
 Created Friday 17 February 2017
 
+#git
+
 ## Install latest version of git on Ubuntu
 
-```
+```bash
 sudo add-apt-repository ppa:git-core/ppa
 sudo apt update
 sudo apt install git
