@@ -8,7 +8,7 @@ modified: '2020-06-03T18:13:29.320Z'
 # Setup Kubernetes NFS Storage
 
 ## Install NFS storage server
-```
+```bash
 sudo apt install nfs-kernel-server
 ```
 
@@ -28,7 +28,7 @@ Accept the defaults for sizes
 press w to write, there may be an error about re-reading failing.  It can be ignored. 
 Restart the system
 
-```
+```bash
 sudo mkfs -t ext4 /dev/sdb1
 sudo mkdir /data
 sudo mount -t ext4 /dev/sdb1 /data/
@@ -44,18 +44,18 @@ restart the system and verify /data mounts with
 `df -h`
 
 ## Create the nfs directory in /data
-```
+```bash
 sudo mkdir -p /data/nfs
 sudo chown nobody:nogroup /data/nfs
 sudo chmod g+s /data/nfs
 ```
 
 ## Edit /etc/exports
-```
+```bash
 "/data/nfs" <IP_ADDRESS1>(rw,sync,no_subtree_check) <IP_ADDRESS2>(rw,sync,no_subtree_check) <IP_ADDRESS3>(rw,sync,no_subtree_check)
 ```
 
 ## Restart NFS
-```
+```bash
 sudo service nfs-kernel-server restart
 ```

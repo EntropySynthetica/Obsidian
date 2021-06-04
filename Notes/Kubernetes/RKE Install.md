@@ -10,7 +10,7 @@ modified: '2021-05-04T13:49:36.862Z'
 Rancher Kubernetes Engine (RKE) is a CNCF-certified Kubernetes distribution that runs entirely within Docker containers. It works on bare-metal and virtualized servers. RKE solves the problem of installation complexity, a common issue in the Kubernetes community. With RKE, the installation and operation of Kubernetes is both simplified and easily automated, and it’s entirely independent of the operating system and platform you’re running. As long as you can run a supported version of Docker, you can deploy and run Kubernetes with RKE.
 
 ## Kubectl install on any host that will manage the cluster
-```
+```bash
 curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
 chmod +x kubectl
 sudo mv kubectl /usr/local/bin/
@@ -21,14 +21,14 @@ To use a differnt file run
 set KUBECONFIG ./kube/config.<clustername](./RKE_Install/kube/config.<clustername)>.yml
 
 ## Install Docker on the nodes
-```
+```bash
 curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh
 sudo usermod -aG docker your-user
 ```
 
-## Install NFS on the nodes for remote persitent storage
-```
+## Install NFS on the nodes for remote persistent storage
+```bash
 sudo apt install nfs-common
 ```
 Then check that the rpcbind service is started and enabled on boot.
@@ -36,7 +36,7 @@ Then check that the rpcbind service is started and enabled on boot.
 
 
 ## Get RKE binary installed on a server that is not one of the nodes. 
-```
+```bash
 curl -LO https://github.com/rancher/rke/releases/download/v1.2.8/rke_linux-amd64
 chmod +x rke_linux-amd64
 sudo cp rke_linux-amd64 /usr/local/bin/rke
@@ -47,7 +47,7 @@ rke --version
 
 rke config --name cluster.yml
 
-```
+```bash
 erica@kubemaster:~$ rke config --name cluster.yml
 [+] Cluster Level SSH Private Key Path [~/.ssh/id_rsa]: 
 [+] Number of Hosts [1]: 2
@@ -93,7 +93,7 @@ cluster.rkestate: The Kubernetes Cluster State file, this file contains credenti
 `rke up`
 
 ## Example cluster.yml file
-```
+```yaml
 # If you intened to deploy Kubernetes in an air-gapped environment,
 # please consult the documentation on how to configure custom RKE images.
 nodes:

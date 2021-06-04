@@ -21,7 +21,7 @@ Verify the secret
 
 Add the following annotations to the ingress rule like the example below
 
-```
+```yaml
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:

@@ -13,13 +13,13 @@ To disable ubuntu’s default dns server to free up port 53, I ended up doing th
 
 Add ‘127.0.0.1 localhost’ to /etc/hosts file
 update /etc/resolv.conf to only include:
-```
+```console
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 ```
 
 Run the following:
-```
+```bash
 sudo systemctl disable systemd-resolved.service
 sudo service systemd-resolved stop
 ```
@@ -27,10 +27,12 @@ sudo service systemd-resolved stop
 rancher/hello-world
 
 ## Startup rancher with self signed certs
-`sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher --privileged rancher/rancher:v2.5.6`
+```bash
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher --privileged rancher/rancher:v2.5.6
+```
 
 ## Startup Rancher with proper certs
-```
+```bash
 docker run -d --restart=unless-stopped \
   -p 80:80 -p 443:443 \
   -v /opt/rancher:/var/lib/rancher \
