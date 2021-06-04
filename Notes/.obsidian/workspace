@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "0adc2e717e08cff6",
+    "type": "split",
+    "children": [
+      {
+        "id": "f90070b2bda6f417",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Git/Git Cheat Sheet.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "665f88c035f866b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "b5037f104f85f527",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e116496a5718354",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5a2eef73567ed227",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e3a315c177be3c7d",
+    "type": "split",
+    "children": [
+      {
+        "id": "96eb1de33aabfee6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a72cf371ddba6b8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Git/Git Cheat Sheet.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "f90070b2bda6f417",
+  "lastOpenFiles": [
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Git Cheat Sheet.md",
+    "Kubectl Notes.md",
+    "Untitled.md"
+  ]
+}
