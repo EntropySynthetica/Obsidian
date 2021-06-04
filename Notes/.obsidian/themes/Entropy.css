@@ -15,7 +15,8 @@
     /* --font-family-preview:           'Fira Code', 'Source Code Pro', monospace; */
     --font-family-editor:            Avenir, Avenir Next, sans-serif;
     --font-family-preview:           Avenir, Avenir Next, sans-serif;
-    --font-family-code:              'OperatorMonoSSmLig-Book';
+    /* --font-family-code:              'OperatorMonoSSmLig-Book'; */
+    --font-family-code:              'Fira Code', 'Source Code Pro', monospace;
 } 
 
 .theme-light,
@@ -34,7 +35,7 @@
   --background-modifier-error-rgb: 61, 0, 0;
   --background-modifier-error-hover: #470000;
   --background-modifier-cover: rgba(0, 0, 0, 0.6);
-  --text-accent: #ffb86c;
+  --text-accent: #fae0c4;
   --text-accent-hover: #8be9fd;
   --text-normal: #f8f8f2;
   --text-muted: #f8f8f2;
@@ -44,11 +45,11 @@
   --text-error-hover: #ff79c6;
   --text-selection: #6272a4; /* Chromium precess this color with alpha channel */
   --text-on-accent: #bd93f9;
-  --interactive-normal: #6cbdff;
-  --interactive-hover: #ff5555;
-  --interactive-accent: #6cbdff;
+  --interactive-normal: #6c7bff;
+  --interactive-hover: #9655ff;
+  --interactive-accent: #6c7bff;
   --interactive-accent-rgb: 123, 108, 217;
-  --interactive-accent-hover: #ff5555;
+  --interactive-accent-hover: #9655ff;
   --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
   --scrollbar-bg: rgba(255, 255, 255, 0.05);
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
