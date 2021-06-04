@@ -7,8 +7,11 @@
         "id": "f90070b2bda6f417",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Linux/Youtube-DL.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Linux/Youtube-DL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,10 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Git/Git Cheat Sheet.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Untitled.md",
-    "Git Cheat Sheet.md",
-    "Kubectl Notes.md"
+    "Youtube-DL.md",
+    "VSCode_Settings.md",
+    "VMWare_PowerCLI_in_Powershell.md",
+    "VIM_Cheatsheet.md",
+    "Vagrant.md",
+    "Useful_regex_searches.md",
+    "Update_Splunk_GoDaddy_SSL.md",
+    "Ubuntu_Account_Lockout.md",
+    "Trim_end_of_MP3_file.md",
+    "tmux_Cheat_Sheet.md"
   ]
 }
