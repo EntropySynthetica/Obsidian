@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/Kubectl Notes.md",
+            "file": "Private/DnD Notes/Margo Backstory.md",
             "mode": "preview"
           }
         }
@@ -68,9 +68,9 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubectl Notes.md",
-                "collapseAll": false,
-                "extraContext": false,
+                "file": "Private/DnD Notes/Margo Backstory.md",
+                "collapseAll": true,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl Notes.md",
-    "Kubernetes/Kubernetes Lab Setup.md",
-    "Youtube-DL.md",
-    "VSCode_Settings.md",
-    "VMWare_PowerCLI_in_Powershell.md",
-    "VIM_Cheatsheet.md",
-    "Vagrant.md",
-    "Useful_regex_searches.md",
-    "Update_Splunk_GoDaddy_SSL.md",
-    "Ubuntu_Account_Lockout.md"
+    "Private/DnD Notes/Untitled.md",
+    "Obsidian/Markdown Test Page.md",
+    "Obsidian/Snippet Highlighting.md",
+    "Obsidian/Untitled.md",
+    "Database/MySQL/MSSQL Driver for PHP 7.x.md",
+    "Database/MySQL/MySQL Notes.md",
+    "Database/MySQL/MSSQL_Driver_for_PHP_7.x.md",
+    "Database/MySQL/MySQL_Innodb_Cluster.md",
+    "Database/MySQL/MYSQL_Notes.md",
+    "Database/Percona/Percona Cluster Setup Guide.md"
   ]
 }
