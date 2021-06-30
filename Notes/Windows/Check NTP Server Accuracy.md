@@ -1,6 +1,6 @@
 ---
 tags: [Windows]
-title: Check_NTP_Server_Accuracy
+title: Check NTP Server Accuracy
 created: '2020-01-30T20:16:16.515Z'
 modified: '2020-02-02T17:56:25.039Z'
 ---
