@@ -61,14 +61,14 @@ authors table
 
 ## Enable Logs
 to log queries, update my.cnf and add/change
-```
+``` 
 general_log_file = /var/log/mysql.log
 general_log = 1
 ```
 
 ## use consistent naming
 bad naming:
-```
+``` sql
 posts table
     - ID
     - title
@@ -96,7 +96,7 @@ posts table
 
 ### Transactions
 five reindexes
-```
+``` sql
 insert into whatever values (default, 1);
 insert into whatever values (default, 2);
 insert into whatever values (default, 3);
@@ -105,7 +105,7 @@ insert into whatever values (default, 5);
 ```
 
 one reindex
-```
+``` sql
 start transaction;
 insert into whatever values (default, 1);
 insert into whatever values (default, 2);

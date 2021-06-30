@@ -8,42 +8,50 @@ modified: '2021-01-25T23:17:04.733Z'
 # MySQL Notes
 
 ## Login to a MySQL server
-`mysql -u <username> -p<password> -h <server ip>`
+```bash
+mysql -u <username> -p<password> -h <server ip>
+```
 
 ## Create a new MySQL remote user
-```
+```sql
 CREATE USER 'username'@'%' IDENTIFIED BY 'password';
 GRANT ALL ON *.* TO 'username'@'%';
 FLUSH PRIVILEGES;
 ```
 
 ## Create a new Database
-```
+```sql
 CREATE DATABASE dbname;
 GRANT ALL PRIVILEGES ON `dbname`.* TO 'username'@'%';
 ```
 
 ## Show Database Perms for a user
-```
+```sql
 SHOW GRANTS FOR 'username'@'%';
 ```
 
 ## Show MySQL Users
 
 Show the full users table
-`select * from mysql.user;`
+```sql
+select * from mysql.user;
+```
 
 Show basic users table
-`select user, host from mysql.user;`
+```sql
+select user, host from mysql.user;
+```
 
 ## Change a MySQL Users Password
-`alter user '<username>'@'%' identified by '<password>';`
-`flush privileges;`
+```sql
+alter user '<username>'@'%' identified by '<password>'
+flush privileges;
+```
 
 
 ## Create a test table
 
-```
+```sql
 create table test_table(
    test_id INT NOT NULL AUTO_INCREMENT,
    test_title VARCHAR(100) NOT NULL,
@@ -55,7 +63,7 @@ create table test_table(
 
  Add some data to that table
 
- ```
+ ```sql
  INSERT INTO test_table 
    (test_title, test_name, submission_date)
    VALUES
@@ -64,7 +72,7 @@ create table test_table(
 
 Read the data out
 
-```
+```sql
 select * from test_table
 ```
 
