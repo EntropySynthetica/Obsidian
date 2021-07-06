@@ -6,9 +6,10 @@ modified: '2020-02-02T17:49:53.251Z'
 ---
 
 # Delete Files Older than
-Created Thursday 05 April 2018
 
-`find /path/to/files* -mtime +5 -exec rm {} \;`
+```bash
+find /path/to/files* -mtime +5 -exec rm {} \;
+```
 
 Note that there are spaces between rm, {}, and \;
 

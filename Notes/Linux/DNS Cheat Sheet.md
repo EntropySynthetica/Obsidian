@@ -1,39 +1,48 @@
 ---
 tags: [Linux]
-title: DNS Cheet Sheet
+title: DNS Cheat Sheet
 created: '2020-01-30T20:16:15.499Z'
 modified: '2020-08-02T01:07:23.037Z'
 ---
 
-# DNS Cheet Sheet
-Created Thursday 11 May 2017
+# DNS Cheat Sheet
 
 ### To grab DNS info for google.com
-`dig google.com`
+```bash
+dig google.com
+```
 
 ### To grab DNS info and poll a specific DNS server
-`dig @8.8.8.8 www.google.com`
+```bash
+dig @8.8.8.8 www.google.com
+```
 
 ### To get a short DNS anwer. 
-`dig +short google.com`
+```bash
+dig +short google.com
+```
 
 ### Grab a specific record type
-`dig -t aaaa google.com`
+```bash
+dig -t aaaa google.com
+```
 
 ### Reverse Lookup an IP
-`dig -x ip-address-here`
+```bash
+dig -x ip-address-here
+```
 
 
 ## Other values for -t include MX, CNAME, PTR + others.  
 
-Address Mapping records (A) ...
-IP Version 6 Address records (AAAA) ...
-Canonical Name records (CNAME) ...
-Host Information records (HINFO) ...
-Integrated Services Digital Network records (ISDN) ...
-Mail exchanger record (MX) ...
-Name Server records (NS) ...
-Reverse-lookup Pointer records (PTR)
+* Address Mapping records (A) ...
+* IP Version 6 Address records (AAAA) ...
+* Canonical Name records (CNAME) ...
+* Host Information records (HINFO) ...
+* Integrated Services Digital Network records (ISDN) ...
+* Mail exchanger record (MX) ...
+* Name Server records (NS) ...
+* Reverse-lookup Pointer records (PTR)
 
 
 ## DNS Resource Records

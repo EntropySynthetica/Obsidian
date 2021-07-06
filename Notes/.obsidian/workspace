@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/IP_Command_Cheet_Sheet.md",
+            "file": "Kubernetes/K3S Notes.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/IP_Command_Cheet_Sheet.md",
+                "file": "Kubernetes/K3S Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Linux/IP_Command_Cheet_Sheet.md",
-    "Git/Git Cheat Sheet.md",
-    "Docker/Docker Cheat Sheet.md",
-    "Private/DnD Notes/Margo Backstory.md",
-    "Splunk/Refresh_Manual_Dashboard_Changes.md",
-    "VMWare/VMWare_PowerCLI_in_Powershell.md",
-    "Windows/Check_NTP_Server_Accuracy.md",
+    "Linux/K3S Notes.md",
+    "Linux/Vagrant.md",
+    "Linux/Useful_regex_searches.md",
     "Windows/Get_User_Info_in_Powershell.md",
     "Windows/Get_W10_Product_Key.md",
-    "Crypto/Check HTTPS site SSL status.md"
+    "Windows/Check NTP Server Accuracy.md",
+    "Obsidian/Markdown Code Highlighting Languages.md",
+    "VMWare/VMWare_PowerCLI_in_Powershell.md",
+    "Linux/Set SNMPV3 on Ubuntu 18.04.md",
+    "Linux/Hard_Reboot_Via_Keystroke.md"
   ]
 }
