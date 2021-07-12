@@ -9,20 +9,26 @@ modified: '2020-07-26T22:25:03.403Z'
 
 Generate a password file
 
-`htpasswd -c auth <username>`
+```bash
+htpasswd -c auth <username>
+```
 
 Use Kubectl to create a secret from the file
 
-`kubectl create secret generic basic-auth --from-file=auth`
+```bash
+kubectl create secret generic basic-auth --from-file=auth
+```
 
 Verify the secret
 
-`kubectl get secret basic-auth -o yaml`
+```bash
+kubectl get secret basic-auth -o yaml
+```
 
 Add the following annotations to the ingress rule like the example below
 
 ```yaml
-apiVersion: networking.k8s.io/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: ingress-with-auth
@@ -33,6 +39,7 @@ metadata:
     nginx.ingress.kubernetes.io/auth-secret: basic-auth
     # message to display with an appropriate context why the authentication is required
     nginx.ingress.kubernetes.io/auth-realm: 'Authentication Required - foo'
+	
 spec:
   rules:
   - host: foo.bar.com
@@ -40,6 +47,8 @@ spec:
       paths:
       - path: /
         backend:
-          serviceName: http-svc
-          servicePort: 80
+			service:
+				name: http-svc
+				port:
+					number: 80
 ```

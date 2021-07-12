@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/K3S Notes.md",
+            "file": "Git/Git Cheat Sheet.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/K3S Notes.md",
+                "file": "Git/Git Cheat Sheet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Linux/K3S Notes.md",
-    "Linux/Vagrant.md",
-    "Linux/Useful_regex_searches.md",
-    "Windows/Get_User_Info_in_Powershell.md",
-    "Windows/Get_W10_Product_Key.md",
-    "Windows/Check NTP Server Accuracy.md",
-    "Obsidian/Markdown Code Highlighting Languages.md",
-    "VMWare/VMWare_PowerCLI_in_Powershell.md",
-    "Linux/Set SNMPV3 on Ubuntu 18.04.md",
-    "Linux/Hard_Reboot_Via_Keystroke.md"
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Nginx Ingress Basic Auth.md",
+    "Kubernetes/Rancher Setup.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Setup Kubernetes NFS Storage.md",
+    "Kubernetes/K3S Notes.md",
+    "Kubernetes/Install Generic K8S.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
+    "Linux/Fake Flash Drive Checker.md",
+    "Linux/Fake_Flash_Drive_Checker.md"
   ]
 }

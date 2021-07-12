@@ -6,12 +6,12 @@ modified: '2020-01-30T20:40:49.187Z'
 ---
 
 # Fake Flash Drive Checker
-Created Friday 20 October 2017
 
 f3write [--start-at=NUM] [--end-at=NUM] <PATH>
 f3read  [--start-at=NUM] [--end-at=NUM] <PATH>
 f3write will ask for the devices claimed size and fill it with generated files with a size of 1gb each. f3read will read all those files and see of they are complete and not broken. As an example the commands I used to test my ~128gb thumb drive:
 
+```
 ~> f3write /media/username/1EB8021AB801F0D7/
 Free space: 117.94 GB
 Creating file 1.h2w ... OK!                           
@@ -20,7 +20,9 @@ Creating file 118.h2w ... OK!
 Free space: 0.00 Byte
 Average writing speed: 11.67 MB/s
 Now to test whether the files are correctly stored:
-
+```
+	
+```	
 ~> f3read /media/username/1EB8021AB801F0D7/
   SECTORS      ok/corrupted/changed/overwritten
 Validating file 1.h2w ... 2097152/        0/      0/      0
@@ -33,8 +35,9 @@ Data LOST: 0.00 Byte (0 sectors)
 Slightly changed: 0.00 Byte (0 sectors)
  Overwritten: 0.00 Byte (0 sectors)
 Average reading speed: 32.38 MB/s
+```
 
-The f3probe method
+## The f3probe method
 
 f3probe is another way to test the drives, not as accurate but faster since it does not write on the whole drive. You can read more about it on the tools website. If you want to be 100% sure, better use the h2testw method. As the developer describes on the website:
 
@@ -44,6 +47,8 @@ and
 Finally, thanks to f3probe being free software, and once f3probe is battle proven, f3probe could be embedded on smartphones, cameras, MP3 players, and other devices to stop once and for all the proliferation of fake flash.
 There is also a usage example on the website:
 
+	
+```
 $ sudo ./f3probe --destructive --time-ops /dev/sdb
 [sudo] password for michel: 
 F3 probe 6.0
@@ -71,13 +76,14 @@ Probe time: 1'13"
  Write: 55.48s / 2158 = 25.7ms
  Reset: 17.88s / 14 = 1.27s
 Note that it also returns a command that enables you to use the drive with it's real size, using f3fix.
+```
 
-The f3fix tool
+### The f3fix tool
 
 f3fix enables users to use the real capacity of fake drives without losing data.
 Install in Ubuntu
 
 The described tools are part of the f3 package, which is at least available on Ubuntu 15.10. According to the website, there are some more tools that are available. To get them take a look at the website. To install the package just type into a terminal:
 
-sudo apt-get install f3
+`sudo apt-get install f3`
 
