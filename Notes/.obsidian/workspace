@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git/Git Cheat Sheet.md",
+            "file": "Kubernetes/RKE Install.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Kubectl Notes.md",
     "Git/Git Cheat Sheet.md",
+    "Windows/Get_W10_Product_Key.md",
     "Kubernetes/Nginx Ingress Basic Auth.md",
     "Kubernetes/Rancher Setup.md",
-    "Kubernetes/RKE Install.md",
     "Kubernetes/Setup Kubernetes NFS Storage.md",
     "Kubernetes/K3S Notes.md",
     "Kubernetes/Install Generic K8S.md",
-    "Kubernetes/Kubernetes Lab Setup.md",
-    "Linux/Fake Flash Drive Checker.md",
-    "Linux/Fake_Flash_Drive_Checker.md"
+    "Kubernetes/Kubernetes Lab Setup.md"
   ]
 }

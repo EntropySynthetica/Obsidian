@@ -1,0 +1,10 @@
+{
+  "spellcheck": true,
+  "showLineNumber": true,
+  "spellcheckDictionary": [
+    "config",
+    "Kubernetes",
+    "Containerd",
+    "kubectl"
+  ]
+}

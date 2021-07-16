@@ -1,0 +1,9 @@
+{
+  "baseFontSize": 16,
+  "cssTheme": "Entropy",
+  "enabledCssSnippets": [
+    "realistic-highlight",
+    "checkbox",
+    "notation-colour-blocks"
+  ]
+}
