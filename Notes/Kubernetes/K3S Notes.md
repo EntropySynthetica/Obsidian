@@ -177,3 +177,30 @@ ExecStart=/usr/local/bin/k3s \
 	'--docker' \
 ```
 
+
+### Change the default ingress to Nginx
+
+Start K3S with the `--disable traefik` flag.  
+
+`curl -sfL https://get.k3s.io | sh -s - --write-kubeconfig-mode 644 --docker --disable traefik`
+
+Create a file named helm-ingress-nginx.yaml and place it in `/var/lib/rancher/k3s/server/manifests/helm-ingress-nginx.yaml`
+
+The file should have the following, 
+
+```
+# see https://rancher.com/docs/k3s/latest/en/helm/  
+# see https://github.com/kubernetes/ingress-nginx/tree/master/charts/ingress-nginx  
+apiVersion: helm.cattle.io/v1  
+kind: HelmChart  
+metadata:  
+  name: ingress-controller-nginx  
+  namespace: kube-system  
+spec:  
+  repo: https://kubernetes.github.io/ingress-nginx  
+  chart: ingress-nginx  
+  version: 3.34.0  
+  targetNamespace: kube-system
+ ```
+ 
+ 

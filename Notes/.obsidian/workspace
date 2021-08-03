@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/RKE Install.md",
+            "file": "Kubernetes/K3S Notes.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ssh keys",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Kubernetes/K3S Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Git/Git Cheat Sheet.md",
-    "Windows/Get_W10_Product_Key.md",
-    "Kubernetes/Nginx Ingress Basic Auth.md",
-    "Kubernetes/Rancher Setup.md",
-    "Kubernetes/Setup Kubernetes NFS Storage.md",
     "Kubernetes/K3S Notes.md",
-    "Kubernetes/Install Generic K8S.md",
-    "Kubernetes/Kubernetes Lab Setup.md"
+    "Kubernetes/Nginx Ingress Basic Auth.md",
+    "Kubernetes/Install Helm.md",
+    "Git/Git Cheat Sheet.md",
+    "Crypto/SSH_Keys.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/Hasicorp Vault Notes.md",
+    "Kubernetes/Rancher Setup.md",
+    "Kubernetes/RKE Install.md",
+    "Private/Work/Untitled.md"
   ]
 }
