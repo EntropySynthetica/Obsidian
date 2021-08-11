@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/K3S Notes.md",
+            "file": "Kubernetes/RKE Install.md",
             "mode": "preview"
           }
         }
@@ -68,11 +68,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/K3S Notes.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/K3S Notes.md",
-    "Kubernetes/Nginx Ingress Basic Auth.md",
-    "Kubernetes/Install Helm.md",
-    "Git/Git Cheat Sheet.md",
-    "Crypto/SSH_Keys.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Kubernetes/Hasicorp Vault Notes.md",
-    "Kubernetes/Rancher Setup.md",
     "Kubernetes/RKE Install.md",
-    "Private/Work/Untitled.md"
+    "Kubernetes/Rancher Setup.md",
+    "Kubernetes/Install Generic K8S.md",
+    "Kubernetes/Install Helm.md",
+    "Kubernetes/K3S Notes.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
+    "Kubernetes/Kubernetes YAML File.md",
+    "Kubernetes/Nginx Ingress Basic Auth.md",
+    "Linux/Keep_your_vimrc_when_using_Sudo.md"
   ]
 }

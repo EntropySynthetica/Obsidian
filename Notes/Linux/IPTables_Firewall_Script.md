@@ -8,7 +8,7 @@ modified: '2021-02-04T19:38:01.770Z'
 # IPTables Firewall Script
 Created Tuesday 06 September 2016
 
-```
+```bash
 #!/bin/bash
 #
 # iptables easy configuration script for Debian
