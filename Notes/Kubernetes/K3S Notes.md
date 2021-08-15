@@ -201,6 +201,48 @@ spec:
   chart: ingress-nginx  
   version: 3.34.0  
   targetNamespace: kube-system
+ 
  ```
  
  
+ 
+ 
+SUSE has instructions to do the same, but with a slightly more complex Helm file.  This deploy has the advantage of going into it's own namespace, as well as logging the source IP of a connection, which the above does not.    
+ `/var/lib/rancher/k3s/server/manifests/ingress-nginx.yaml`
+
+```
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress-nginx
+---
+apiVersion: helm.cattle.io/v1
+kind: HelmChart
+metadata:
+  name: ingress-nginx
+  namespace: kube-system
+spec:
+  chart: ingress-nginx
+  repo: https://kubernetes.github.io/ingress-nginx
+  targetNamespace: ingress-nginx
+  version: v3.34.0
+  set:
+  valuesContent: |-
+    fullnameOverride: ingress-nginx
+    controller:
+      kind: DaemonSet
+      hostNetwork: true
+      hostPort:
+        enabled: true
+      service:
+        enabled: false
+      publishService:
+        enabled: false
+      metrics:
+        enabled: true
+      config:
+        use-forwarded-headers: "true"
+```
+
+### K3S Helm CRD Info
+https://blakecovarrubias.com/blog/exploring-the-helmchart-custom-resource-in-k3s/
