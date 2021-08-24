@@ -8,14 +8,16 @@ modified: '2020-01-30T20:38:34.566Z'
 # Create or Renew Godaddy cert on IIS
 Created Thursday 15 February 2018
 
-IIS requries a .pfx file which is a password protected file containing the private key and cert.  
+IIS requires a .pfx file which is a password protected file containing the private key and cert.  
 
 Go Daddy will supply two files, xxxxxxxx.crt where xxx is random letters and numbers, and gd_bundle-g2-g1.crt which is the intermediate cert.  
-We also need the private key which was created when the inital Certificate signing request was done.  
+
+We also need the private key which was created when the initial Certificate signing request was done.  
 
 The following command will create the PFX file, 
-
+```bash
 openssl pkcs12 -export -out arvig.com.pfx -inkey private.key -in xxxxxxxxxxxx.crt
+```
 
 You will be asked to create a password when creating the PFX file. 
 

@@ -6,13 +6,14 @@ modified: '2020-07-08T13:00:29.593Z'
 ---
 
 # SSH Keys
-Created Monday 05 June 2017
 
 RSA Private Key stored in `~./ssh/id_rsa`
 RSA Public Key stored in `~./ssh/id_rsa.pub`
 
 ### To generate a new key run
-`ssh-keygen -t rsa`
+```bash
+ssh-keygen -t rsa
+```
 
 ### To SSH in to a remote system without a password:
 Copy the data in the pub file to a new line in  `~/.ssh/authorized_keys` on the remote system. 
@@ -28,10 +29,14 @@ By default the linux command ssh-copy-id will look for the public key in
 By defualt the linux ssh client will use `~/.ssh/id_rsa` as a private key.
 
 ### To get the public key from the private key run 
-`ssh-keygen -y -f ~/.ssh/id_rsa`
+```bash
+ssh-keygen -y -f ~/.ssh/id_rsa
+```
 
 ### To manually point SSH to a private key to use  
-`ssh -i ~/.ssh/id_rsa.otherkey user@server.example.com`
+```bash
+ssh -i ~/.ssh/id_rsa.otherkey user@server.example.com
+```
 
 ## Managing multiple keys and hosts with config file. 
 
@@ -61,7 +66,7 @@ Host github.com
 
 Then you can connect with `ssh myserver`
 
-Manging multiple Git Repos
+Managing multiple Git Repos
 
 ```
 Host github-corporate
