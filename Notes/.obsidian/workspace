@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Crypto/SSH Keys.md",
+            "file": "Git/Git Cheat Sheet.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/SSH Keys.md",
+                "file": "Git/Git Cheat Sheet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubectl Notes.md",
     "Crypto/SSH Keys.md",
+    "Code/point_of___name___==_'__main__'_in_Python.md",
     "Crypto/Setup_Apache2_with_GoDaddy_Cert.md",
     "Crypto/Create_or_Renew_Godaddy_cert_on_IIS.md",
     "Crypto/Poll_Website_for_SSL_expiration_date.md",
-    "Git/Git Cheat Sheet.md",
     "Kubernetes/Hasicorp Vault Notes.md",
     "Crypto/SSH_Keys.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Kubernetes/Untitled.md",
-    "Kubernetes/K3S Notes.md"
+    "Kubernetes/Kubernetes External Secrets.md"
   ]
 }
