@@ -37,7 +37,7 @@ Then check that the rpcbind service is started and enabled on boot.
 
 ## Get RKE binary installed on a server that is not one of the nodes. 
 ```bash
-curl -LO https://github.com/rancher/rke/releases/download/v1.2.11/rke_linux-amd64
+curl -LO https://github.com/rancher/rke/releases/download/v1.3.0/rke_linux-amd64
 chmod +x rke_linux-amd64
 sudo cp rke_linux-amd64 /usr/local/bin/rke
 rke --version
@@ -228,7 +228,7 @@ authorization:
   options: {}
 ignore_docker_version: false
 
-kubernetes_version: "v1.17.5-rancher1-1"
+kubernetes_version: "v1.21.4-rancher1-1"
 
 private_registries: []
 

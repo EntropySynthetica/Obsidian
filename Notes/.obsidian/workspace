@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git/Git Cheat Sheet.md",
+            "file": "Linux/Ansible Notes.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh keys",
+                "query": "ansible",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Linux/Ansible Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Git/Git Cheat Sheet.md",
-    "Kubernetes/Kubectl Notes.md",
+    "Linux/Ansible Notes.md",
     "Crypto/SSH Keys.md",
-    "Code/point_of___name___==_'__main__'_in_Python.md",
-    "Crypto/Setup_Apache2_with_GoDaddy_Cert.md",
-    "Crypto/Create_or_Renew_Godaddy_cert_on_IIS.md",
-    "Crypto/Poll_Website_for_SSL_expiration_date.md",
-    "Kubernetes/Hasicorp Vault Notes.md",
-    "Crypto/SSH_Keys.md",
-    "Kubernetes/Kubernetes External Secrets.md"
+    "Code/Python/Python_Virtual_Env.md",
+    "Code/Python/Python3 Install latest on Ubuntu.md",
+    "Git/Git Cheat Sheet.md",
+    "Code/Install Go on Ubuntu.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Rancher Setup.md",
+    "Kubernetes/Kubernetes External Secrets.md",
+    "Private/Work/Untitled.md"
   ]
 }
