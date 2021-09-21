@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Ansible Notes.md",
+            "file": "Git/Git Cheat Sheet.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Ansible Notes.md",
+                "file": "Git/Git Cheat Sheet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Git/Git Cheat Sheet.md",
+    "Git/Gitlab CI CD Notes.md",
+    "Database/Percona/Percona Cluster Setup Guide.md",
+    "Kubernetes/Kubectl Notes.md",
     "Linux/Ansible Notes.md",
     "Crypto/SSH Keys.md",
     "Code/Python/Python_Virtual_Env.md",
     "Code/Python/Python3 Install latest on Ubuntu.md",
-    "Git/Git Cheat Sheet.md",
     "Code/Install Go on Ubuntu.md",
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Rancher Setup.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Private/Work/Untitled.md"
+    "Kubernetes/RKE Install.md"
   ]
 }

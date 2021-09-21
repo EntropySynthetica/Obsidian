@@ -57,11 +57,20 @@ To set your identity:
 `git config user.name "Jane Doe"`
 `git config user.email "myworkemail@address.com"`
 
-Create a new Brnch
+Create a new Branch
 `git checkout -b <branch>`
 
 Delete a Branch
 `git branch -d <branch>`
+
+Show all Branches
+`git branch`
+
+Show all Remote Branches
+`git branch -r`
+
+Pull all Branches 
+`git pull --all`
 
 Remove all changes since last commit. 
 `git reset --hard HEAD`
