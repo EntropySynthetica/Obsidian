@@ -109,7 +109,7 @@ https://dev.to/g_abud/advanced-git-reference-1o9j
 6. add files with `git add filename` or add all with `git add -A`
 7. run `git status` again to verify files are being tracked.
 8. commit with `git commit -m 'Comments go here'`
-9. Push changes to github with `git push origin master`
+9. Push changes to github with `git push origin main`
 
 
 ### Pull Changes to local
@@ -122,7 +122,7 @@ https://dev.to/g_abud/advanced-git-reference-1o9j
 
 1. Verify there are changes with `git status`
 2. Commit changes with `git commit -m 'Comments go here'`
-3. Sync back to github with `git push origin master`
+3. Sync back to github with `git push origin main`
 
 
 ### New Project from existing directory
@@ -134,7 +134,7 @@ https://dev.to/g_abud/advanced-git-reference-1o9j
 5. commit with `git commit -m 'Comments go here'`
 6. Add remote repo with `git remote add origin <repositoryURL>`
 7. Verify it with `git remote -v`
-8. Sync back to github with `git push origin master`
+8. Sync back to github with `git push origin main`
 
 
 ### Branch a repo
@@ -146,20 +146,20 @@ https://dev.to/g_abud/advanced-git-reference-1o9j
 5. `git commit <filename> -m 'Notes'`
 
 
-### Merge back to Master
+### Merge back to main
 
 1. Verify your changes `git status`
-2. Switch to Master `git checkout master`
+2. Switch to main `git checkout main`
 3. `git merge <branch name>`
 4. Delete now unused branch `git branch -d <branch name>`
 5. Verify with `git status` 
-6. Sync back to github `git push origin master`
+6. Sync back to github `git push origin main`
 
 
 ### Overwrite local changes with what is on the remote. 
 
 1. `git fetch --all`
-2. `git reset --hard origin/master`
+2. `git reset --hard origin/main`
 
 Or if you are on some other branch
 
@@ -179,7 +179,7 @@ Or if you are on some other branch
  `git remote -v`
 
  Then use the short name in pushes or pulls
- `git push <short name for repo> master`
+ `git push <short name for repo> main`
 
 ### Ignore changes to already-tracked files
 
@@ -262,8 +262,8 @@ git filter-branch --env-filter \
 ### To remove untracked and ignored files
 `git clean -f -d -x`
 
-### To push to the tracked master branch:
-`git push origin master`
+### To push to the tracked main branch:
+`git push origin main`
 
 ### To push to a specified repository:
 `git push git@github.com:username/project.git`
@@ -277,14 +277,14 @@ git filter-branch --env-filter \
 ### To see who commited which line in a file
 `git blame filename`
 
-### To sync a fork with the master repo:
+### To sync a fork with the main repo:
 `git remote add upstream git@github.com:name/repo.git`    # Set a new repo
 `git remote -v`                                           # Confirm new remote repo
 `git fetch upstream`                                      # Get branches
 `git branch -va`                                          # List local - remote branches
-`git checkout master`                                     # Checkout local master branch
+`git checkout main`                                     # Checkout local main branch
 `git checkout -b new_branch`                              # Create and checkout a new branch
-`git merge upstream/master`                               # Merge remote into local repo
+`git merge upstream/main`                               # Merge remote into local repo
 `git show 83fb499`                                        # Show what a commit did.
 `git show 83fb499:path/fo/file.ext`                       # Shows the file as it appeared at 83fb499.
 `git diff branch_1 branch_2`                              # Check difference between branches
@@ -301,8 +301,8 @@ git filter-branch --env-filter \
 `git log @{u}..`
 
 ### View changes that are new on a feature branch
-`git log -p feature --not master`
-`git diff master...feature`
+`git log -p feature --not main`
+`git diff main...feature`
 
 ### Interactive rebase for the last 7 commits
 `git rebase -i @~7`
@@ -312,7 +312,7 @@ git filter-branch --env-filter \
 
 ### To pull changes while overwriting any local commits
 `git fetch --all`
-`git reset --hard origin/master`
+`git reset --hard origin/main`
 
 ### Update all your submodules
 `git submodule update --init --recursive`
@@ -327,7 +327,7 @@ git filter-branch --env-filter \
 `git checkout --orphan branch_name`
 
 ### Checkout a new branch from a different starting point
-`git checkout -b master upstream/master`
+`git checkout -b main upstream/main`
 
 ### Remove all stale branches (ones that have been deleted on remote) So if you have a lot of useless branches, delete them on Github and then run this
 `git remote prune origin`
@@ -352,7 +352,7 @@ git filter-branch --env-filter \
     (F)
  A-B-C
      ↑
-   master
+   main
 `git reset --hard HEAD~1`
 
 ### Undo last commit
@@ -360,7 +360,7 @@ git filter-branch --env-filter \
     (F)
  A-B-C
    ↑
- master
+ main
 `git reset HEAD~1`
 
 ### list files changed in ${commit_id}
@@ -375,8 +375,8 @@ This is useful if secrets have been commited and the history needs to be wiped o
 `git checkout --orphan newBranch`
 `git add -A`  # Add all files and commit them
 `git commit`
-`git branch -D master`  # Deletes the master branch
-`git branch -m master`  # Rename the current branch to master
-`git push -f origin master`  # Force push master branch to github
+`git branch -D main`  # Deletes the main branch
+`git branch -m main`  # Rename the current branch to main
+`git push -f origin main`  # Force push main branch to github
 `git gc --aggressive --prune=all`     # remove the old files
 
