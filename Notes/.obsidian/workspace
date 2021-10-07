@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Git/Git Cheat Sheet.md",
+            "file": "Kubernetes/RKE Install.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,6 +87,8 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Kubernetes/RKE Install.md",
+    "Database/MySQL/MySQL Notes.md",
     "Git/Git Cheat Sheet.md",
     "Kubernetes/Kubectl Notes.md",
     "Private/DnD Notes/Margo Sidestory 1.md",
@@ -94,8 +96,6 @@
     "Crypto/Check HTTPS site SSL status.md",
     "Private/Radio/Untitled.md",
     "Private/Quotes/Untitled.md",
-    "Private/DnD Notes/Untitled.md",
-    "Kubernetes/Nginx Ingress Basic Auth.md",
-    "Git/Gitlab CI CD Notes.md"
+    "Private/DnD Notes/Untitled.md"
   ]
 }

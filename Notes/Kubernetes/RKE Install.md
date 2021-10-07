@@ -37,11 +37,14 @@ Then check that the rpcbind service is started and enabled on boot.
 
 ## Get RKE binary installed on a server that is not one of the nodes. 
 ```bash
-curl -LO https://github.com/rancher/rke/releases/download/v1.3.0/rke_linux-amd64
+curl -LO https://github.com/rancher/rke/releases/download/v1.3.1/rke_linux-amd64
 chmod +x rke_linux-amd64
 sudo cp rke_linux-amd64 /usr/local/bin/rke
 rke --version
 ```
+
+## Check which versions of kube work with the version of RKE
+`rke config --list-version --all`
 
 ## Make RKE config file.
 
@@ -270,8 +273,6 @@ restore:
 dns: null
 ```
 
-## Check which versions of kube work with the version of RKE
-`rke config --list-version --all`
 
 ## Cluster Upgrades
 
