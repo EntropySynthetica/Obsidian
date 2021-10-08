@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/RKE Install.md",
+            "file": "Kubernetes/K8S Sample Manifest.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Kubernetes/K8S Sample Manifest.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,15 +87,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
-    "Database/MySQL/MySQL Notes.md",
-    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Untitled.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
+    "Kubernetes/Kubernetes External Secrets.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/DnD Notes/Margo Sidestory 1.md",
-    "Crypto/Poll Website for SSL expiration_date.md",
-    "Crypto/Check HTTPS site SSL status.md",
-    "Private/Radio/Untitled.md",
-    "Private/Quotes/Untitled.md",
-    "Private/DnD Notes/Untitled.md"
+    "Kubernetes/K3S Notes.md",
+    "Kubernetes/Install Helm.md",
+    "Kubernetes/Install Generic K8S.md",
+    "Kubernetes/Hasicorp Vault Notes.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/RKE Install.md"
   ]
 }
