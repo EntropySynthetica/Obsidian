@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/K8S Sample Manifest.md",
+            "file": "Kubernetes/Nginx Ingress Configs.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/K8S Sample Manifest.md",
+                "file": "Kubernetes/Nginx Ingress Configs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,6 +87,7 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Kubernetes/Nginx Ingress Basic Auth.md",
     "Kubernetes/Untitled.md",
     "Kubernetes/Kubernetes Lab Setup.md",
     "Kubernetes/Kubernetes External Secrets.md",
@@ -95,7 +96,6 @@
     "Kubernetes/Install Helm.md",
     "Kubernetes/Install Generic K8S.md",
     "Kubernetes/Hasicorp Vault Notes.md",
-    "Git/Git Cheat Sheet.md",
-    "Kubernetes/RKE Install.md"
+    "Git/Git Cheat Sheet.md"
   ]
 }
