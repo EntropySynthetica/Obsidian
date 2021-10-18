@@ -13,11 +13,11 @@ Switch to /tmp
 `cd /tmp`
 
 Download it with
-`curl -O https://dl.google.com/go/go1.17.linux-amd64.tar.gz`
+`curl -O https://dl.google.com/go/go1.17.2.linux-amd64.tar.gz`
 
 Extract the File
 
-`tar -xvf go1.15.6.linux-amd64.tar.gz`
+`tar -xvf go1.17.2.linux-amd64.tar.gz`
 
 Adjust the permissions and move the go directory to /usr/local:
 
@@ -39,12 +39,8 @@ Verify with `go version`
 
 ```
 go version
-// go version go1.14.3 linux/amd64
+// go version go1.17.2 linux/amd64
 ```
 
 Verify go ENV with `go env`
 
-Install Wego Weather
-```
-go get -u github.com/schachmat/wego
-```
