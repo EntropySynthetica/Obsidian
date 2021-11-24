@@ -11,5 +11,6 @@
     "TrollSkull",
     "halfling",
     "Finlan"
-  ]
+  ],
+  "alwaysUpdateLinks": true
 }

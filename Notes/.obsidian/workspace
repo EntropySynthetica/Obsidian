@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code/Go/Start a new Go Project.md",
+            "file": "Private/Keyboards/Group buy purchases.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ansible",
+                "query": "ntp",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Go/Start a new Go Project.md",
+                "file": "Private/Keyboards/Group buy purchases.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Code/Go/Untitled.md",
-    "Code/Go/Install WeGo Weather.md",
-    "Code/Go/Install Go on Ubuntu.md",
-    "Crypto/SSH Keys.md",
-    "Kubernetes/RKE Install.md",
-    "Crypto/Setup Apache2 with GoDaddy Cert.md",
-    "Crypto/Check HTTPS site SSL status.md",
-    "Crypto/Create or Renew Godaddy cert on IIS.md",
-    "Crypto/Poll Website for SSL expiration_date.md",
-    "Private/Keyboards/Group buy purchases.md"
+    "Private/Keyboards/Group buy purchases.md",
+    "Code/Python/Update requirements.txt.md",
+    "Linux/Ansible Notes.md",
+    "Kubernetes/K3S Notes.md",
+    "Linux/NTP Config.md",
+    "Private/DnD Notes/DM Notes/Organizations/The Moonlit Dragons Adventurer's Guild.md",
+    "Private/DnD Notes/DM Notes/Locations/Dawn's Anchor.md",
+    "Private/DnD Notes/DM Notes/Organizations/Guilds.md",
+    "Private/DnD Notes/DM Notes/Characters/Lord Galen Athnor.md",
+    "Private/DnD Notes/DM Notes/Locations/The Siren.md"
   ]
 }
