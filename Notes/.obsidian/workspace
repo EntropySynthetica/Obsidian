@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/Keyboards/Group buy purchases.md",
-            "mode": "preview"
+            "file": "Private/DnD Notes/DM Notes/Characters/Sparky.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Keyboards/Group buy purchases.md",
+                "file": "Private/DnD Notes/DM Notes/Characters/Sparky.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Private/Keyboards/Group buy purchases.md",
-    "Code/Python/Update requirements.txt.md",
-    "Linux/Ansible Notes.md",
-    "Kubernetes/K3S Notes.md",
-    "Linux/NTP Config.md",
-    "Private/DnD Notes/DM Notes/Organizations/The Moonlit Dragons Adventurer's Guild.md",
+    "Private/DnD Notes/DM Notes/Characters/Sparky.md",
+    "Private/DnD Notes/DM Notes/Locations/The Siren.md",
+    "Private/DnD Notes/DM Notes/Characters/Vaugan Bearcaller.md",
+    "Private/DnD Notes/DM Notes/Characters/Sapphire Amanodel.md",
+    "Private/DnD Notes/DM Notes/Characters/Peth Lanofel.md",
     "Private/DnD Notes/DM Notes/Locations/Dawn's Anchor.md",
+    "Private/DnD Notes/DM Notes/Characters/Krin Bluegill.md",
+    "Private/DnD Notes/DM Notes/Main Story Outline/Intro Chapter.md",
     "Private/DnD Notes/DM Notes/Organizations/Guilds.md",
-    "Private/DnD Notes/DM Notes/Characters/Lord Galen Athnor.md",
-    "Private/DnD Notes/DM Notes/Locations/The Siren.md"
+    "Git/Git Cheat Sheet.md"
   ]
 }
