@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/DnD Notes/DM Notes/Characters/Sparky.md",
-            "mode": "source"
+            "file": "Code/Go/Start a new Go Project.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/DnD Notes/DM Notes/Characters/Sparky.md",
+                "file": "Code/Go/Start a new Go Project.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Private/DnD Notes/DM Notes/Characters/Sparky.md",
-    "Private/DnD Notes/DM Notes/Locations/The Siren.md",
-    "Private/DnD Notes/DM Notes/Characters/Vaugan Bearcaller.md",
-    "Private/DnD Notes/DM Notes/Characters/Sapphire Amanodel.md",
+    "Code/Go/Start a new Go Project.md",
+    "Code/Go/Install Go on Ubuntu.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Private/DnD Notes/DM Notes/Characters/Silvina Amakiir.md",
     "Private/DnD Notes/DM Notes/Characters/Peth Lanofel.md",
-    "Private/DnD Notes/DM Notes/Locations/Dawn's Anchor.md",
     "Private/DnD Notes/DM Notes/Characters/Krin Bluegill.md",
+    "Private/DnD Notes/DM Notes/Characters/Sapphire Amanodel.md",
     "Private/DnD Notes/DM Notes/Main Story Outline/Intro Chapter.md",
-    "Private/DnD Notes/DM Notes/Organizations/Guilds.md",
-    "Git/Git Cheat Sheet.md"
+    "Private/DnD Notes/DM Notes/Characters/Sparky.md",
+    "Private/DnD Notes/DM Notes/Locations/The Siren.md"
   ]
 }
