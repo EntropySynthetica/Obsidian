@@ -199,7 +199,7 @@ metadata:
 spec:  
   repo: https://kubernetes.github.io/ingress-nginx  
   chart: ingress-nginx  
-  version: 3.34.0  
+  version: 4.0.13  
   targetNamespace: kube-system
  
  ```
@@ -225,7 +225,7 @@ spec:
   chart: ingress-nginx
   repo: https://kubernetes.github.io/ingress-nginx
   targetNamespace: ingress-nginx
-  version: v3.34.0
+  version: v4.0.13
   set:
   valuesContent: |-
     fullnameOverride: ingress-nginx
