@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Docker/Dockerfile for Go.md",
-            "mode": "source"
+            "file": "GH Actions/PHP CD without containers.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Dockerfile for Go.md",
+                "file": "GH Actions/PHP CD without containers.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "GH Actions/PHP CD without containers.md",
+    "Git/Git Cheat Sheet.md",
     "Docker/Dockerfile for Go.md",
     "Kubernetes/K3S Notes.md",
     "Private/Keyboards/Group buy purchases.md",
     "Private/DnD Notes/My Characters/Essaerea Backstory.md",
     "Code/Go/Start a new Go Project.md",
-    "Git/Git Cheat Sheet.md",
     "Kubernetes/RKE Install.md",
     "Kubernetes/Kubectl Notes.md",
-    "Code/Go/Install Go on Ubuntu.md",
-    "Private/DnD Notes/DM Notes/Characters/Silvina Amakiir.md"
+    "Code/Go/Install Go on Ubuntu.md"
   ]
 }
