@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "GH Actions/PHP CD without containers.md",
-            "mode": "preview"
+            "file": "Azure/Setup and Teardown dev K8S Cluster.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ntp",
+                "query": "ssh",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GH Actions/PHP CD without containers.md",
+                "file": "Azure/Setup and Teardown dev K8S Cluster.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Azure/Setup and Teardown dev K8S Cluster.md",
     "GH Actions/PHP CD without containers.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Private/DnD Notes/My Characters/Essaerea Backstory.md",
     "Git/Git Cheat Sheet.md",
     "Docker/Dockerfile for Go.md",
     "Kubernetes/K3S Notes.md",
     "Private/Keyboards/Group buy purchases.md",
-    "Private/DnD Notes/My Characters/Essaerea Backstory.md",
     "Code/Go/Start a new Go Project.md",
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Code/Go/Install Go on Ubuntu.md"
+    "Kubernetes/RKE Install.md"
   ]
 }
