@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Azure/Setup and Teardown dev K8S Cluster.md",
-            "mode": "source"
+            "file": "Kubernetes/RKE Install.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ssh",
+                "query": "permissions",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Setup and Teardown dev K8S Cluster.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Azure/Setup and Teardown dev K8S Cluster.md",
-    "GH Actions/PHP CD without containers.md",
-    "Code/Python/Python_Virtual_Env.md",
-    "Private/DnD Notes/My Characters/Essaerea Backstory.md",
-    "Git/Git Cheat Sheet.md",
-    "Docker/Dockerfile for Go.md",
-    "Kubernetes/K3S Notes.md",
-    "Private/Keyboards/Group buy purchases.md",
-    "Code/Go/Start a new Go Project.md",
-    "Kubernetes/RKE Install.md"
+    "Kubernetes/RKE Install.md",
+    "Private/DnD Notes/DM Notes/Items/Ring of Winter.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Passengers/Lyle Tealeaf.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Krin Bluegill.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Sparky.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Vaugan Bearcaller.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Peth Lanofel.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Sapphire Amanodel.md",
+    "Private/DnD Notes/DM Notes/Characters/Syren Passengers/Silvina Amakiir.md",
+    "Private/DnD Notes/DM Notes/Main Story Outline/Intro Chapter.md"
   ]
 }
