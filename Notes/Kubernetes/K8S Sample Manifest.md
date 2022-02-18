@@ -69,22 +69,23 @@ spec:
   type: ClusterIP # Type of Service.  Options are ClusterIP or Node Port
   clusterIP: None  # Specify an IP for the service.  None means K8S will auto assign an IP.
 
+  ports:
+	 - name: default
+	  	 port: 80 # Port the service will be listening on
+	   protocol: TCP
+	   targetPort: 80 # Port that pod(s) will be listening on
+
   selector:
     app: demo-deploy # Traffic to this service will be routed to pod(s) with this label.
 
-  sessionAffinity: None
-
-  ports:
-    - name: default
-      port: 80 # Port the service will be listening on
-      protocol: TCP
-      targetPort: 80 # Port that pod(s) will be listening on
+  sessionAffinity: None 
 ```
 
 Node Port Service (Optional)
 ```YAML
 apiVersion: v1
 kind: Service
+
 metadata:
   labels:
     app: demo-service-nodeport
@@ -92,16 +93,18 @@ metadata:
   namespace: actionsdemo
 
 spec:
+  type: NodePort
   externalTrafficPolicy: Cluster
   ports:
   - nodePort: 32180
     port: 80
     protocol: TCP
     targetPort: 80
+	
   selector:
     app: demo-deploy
+	
   sessionAffinity: None
-  type: NodePort
 ```
 
 Ingress

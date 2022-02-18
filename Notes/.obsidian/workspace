@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/RKE Install.md",
-            "mode": "preview"
+            "file": "Kubernetes/K8S Sample Manifest.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Kubernetes/K8S Sample Manifest.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
-    "Private/DnD Notes/DM Notes/Items/Ring of Winter.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Passengers/Lyle Tealeaf.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Krin Bluegill.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Sparky.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Vaugan Bearcaller.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Peth Lanofel.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Sapphire Amanodel.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Passengers/Silvina Amakiir.md",
-    "Private/DnD Notes/DM Notes/Main Story Outline/Intro Chapter.md"
+    "Kubernetes/K8S Sample Manifest.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
+    "Kubernetes/Kubernetes YAML File.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Crypto/Poll Website for SSL expiration_date.md",
+    "Crypto/Create or Renew Godaddy cert on IIS.md",
+    "Crypto/Check HTTPS site SSL status.md",
+    "Crypto/Setup Apache2 with GoDaddy Cert.md",
+    "Private/DnD Notes/DM Notes/Main Story Outline/Mission in Dawn's Anchor.md"
   ]
 }
