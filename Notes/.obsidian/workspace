@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/K8S Sample Manifest.md",
-            "mode": "source"
+            "file": "Code/Go/Install Go on Ubuntu.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/K8S Sample Manifest.md",
+                "file": "Code/Go/Install Go on Ubuntu.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/K8S Sample Manifest.md",
+    "Code/Go/Install Go on Ubuntu.md",
     "Git/Git Cheat Sheet.md",
-    "Kubernetes/Kubernetes Lab Setup.md",
-    "Kubernetes/Kubernetes YAML File.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Kubernetes/Install Helm.md",
     "Kubernetes/Kubectl Notes.md",
-    "Crypto/Poll Website for SSL expiration_date.md",
-    "Crypto/Create or Renew Godaddy cert on IIS.md",
-    "Crypto/Check HTTPS site SSL status.md",
-    "Crypto/Setup Apache2 with GoDaddy Cert.md",
-    "Private/DnD Notes/DM Notes/Main Story Outline/Mission in Dawn's Anchor.md"
+    "Code/Python/Python_Virtual_Env.md",
+    "Code/Python/Update requirements.txt.md",
+    "Private/DnD Notes/DM Notes/Main Story Outline/Mission in Dawn's Anchor.md",
+    "Private/DnD Notes/My Characters/Essaerea Backstory.md"
   ]
 }
