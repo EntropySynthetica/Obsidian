@@ -56,10 +56,6 @@ iptables -A INPUT -p tcp --dport 13666 -j ACCEPT
 #
 /sbin/iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
 #
-#-------------------------
-# Save settings if we are in CentOS
-#
-iptables-save > /root/firewall.rules
 #
 #-------------------------
 # List rules
