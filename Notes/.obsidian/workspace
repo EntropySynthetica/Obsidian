@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/IPTables_Firewall_Script.md",
+            "file": "Kubernetes/Azure Vault External Secrets.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/IPTables_Firewall_Script.md",
+                "file": "Kubernetes/Azure Vault External Secrets.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Linux/IPTables_Firewall_Script.md",
-    "Code/Go/Start a new Go Project.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
-    "Private/DnD Notes/DM Notes/Characters/Syren Crew/Sparky.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md",
-    "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/Azure Vault External Secrets.md",
+    "Kubernetes/Install Helm.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Kubernetes/Kubernetes External Secrets.md",
     "Private/Radio/Interesting SWL Freqs.md",
-    "Splunk/Splunk Auto Enable on Boot.md",
-    "Private/Lab/SNMPD Config.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md"
+    "Obsidian/Markdown Code Highlighting Languages.md",
+    "Obsidian/Markdown Test Page.md",
+    "Obsidian/Snippet Highlighting.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
+    "Kubernetes/Kubectl Notes.md"
   ]
 }
