@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/Azure Vault External Secrets.md",
-            "mode": "preview"
+            "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "permissions",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Azure Vault External Secrets.md",
+                "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
     "Kubernetes/Azure Vault External Secrets.md",
-    "Kubernetes/Install Helm.md",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Obsidian/Markdown Code Highlighting Languages.md",
-    "Obsidian/Markdown Test Page.md",
-    "Obsidian/Snippet Highlighting.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
-    "Kubernetes/Kubectl Notes.md"
+    "VMWare/VMWare_PowerCLI_in_Powershell.md",
+    "Linux/Install Powershell for Linux.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-31-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md",
+    "Crypto/Poll Website for SSL expiration_date.md",
+    "Crypto/Create or Renew Godaddy cert on IIS.md"
   ]
 }
