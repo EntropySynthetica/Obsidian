@@ -110,23 +110,29 @@ spec:
 Ingress
 
 ```YAML
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: demo-ingress
-  namespace: demo
-  
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+
 spec:
   rules:
-  - host: demo.something.com
+  - host: demo.local
     http:
       paths:
-      - backend:
-          serviceName: demo-service
-          servicePort: 80
-		  
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: demo-service
+            port: 
+              number: 80
+
+
   tls:
   - hosts:
-    - demo.something.com
+    - demo.local
     secretName: certbot-demo
 ```
