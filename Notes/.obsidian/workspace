@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
-            "mode": "source"
+            "file": "Kubernetes/Kubectl Notes.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
+                "file": "Kubernetes/Kubectl Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
+    "Kubernetes/Kubectl Notes.md",
     "Kubernetes/Azure Vault External Secrets.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Kubernetes/K3S Notes.md",
+    "Azure/Setup and Teardown dev K8S Cluster.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
     "VMWare/VMWare_PowerCLI_in_Powershell.md",
     "Linux/Install Powershell for Linux.md",
-    "Kubernetes/Kubectl Notes.md",
     "Private/DnD Notes/My Characters/Essaerea/Journal/3-31-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md",
-    "Crypto/Poll Website for SSL expiration_date.md",
-    "Crypto/Create or Renew Godaddy cert on IIS.md"
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md"
   ]
 }

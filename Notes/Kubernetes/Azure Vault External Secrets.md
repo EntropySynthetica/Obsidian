@@ -104,17 +104,29 @@ Reference URL: https://external-secrets.io/
 The External Secrets Operator is installed via Helm. 
 
 1. Add the Helm Repo
-```
+```bash
 helm repo add external-secrets https://charts.external-secrets.io
+helm repo add emberstack https://emberstack.github.io/helm-charts
+```
+
+```
+helm repo update
 ```
 
 2. Install the Helm Chart
 
-```
-helm install external-secrets \
+```bash
+helm upgrade external-secrets \
    external-secrets/external-secrets \
     -n external-secrets \
     --create-namespace \
+    --install
+
+helm upgrade reflector \
+   emberstack/reflector \
+    -n reflector \
+    --create-namespace \
+    --install
 ```
 
 
@@ -161,7 +173,7 @@ The Secret Store is configured by applying a yaml file.
 
 azure_secretstore.yml
 ```yaml
-apiVersion: external-secrets.io/v1alpha1
+apiVersion: external-secrets.io/v1beta1
 kind: SecretStore
 metadata:
   name: <Name of vault>
@@ -199,7 +211,7 @@ An External Secret is setup with a Kubernetes Manifest file.
 
 externalsecret.yml
 ```yaml
-apiVersion: external-secrets.io/v1alpha1
+apiVersion: external-secrets.io/v1beta1
 kind: ExternalSecret
 metadata:
   name: aks-secret
@@ -229,4 +241,71 @@ spec:
 kubectl apply -f externalsecret.yml
 ```
 
-The External Secrets Operator will now sync the values from the Azure Vault to the specified secret.  The secrets will be re-synced at the time interval specified in the external secret.
+The External Secrets Operator will now sync the values from the Azure Vault to the specified secret.  The secrets will be re-synced at the time interval specified in the external secret.  
+
+## Certificate Management
+
+### ExternalSecret Certificate Manifest
+
+Assuming the Certificate is already setup in the keyvault use an ExternalSecret to start syncing the certificate.  
+
+externalsecretcert.yml
+```YAML
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: <external_secret_name>  # Name of the externalsecret
+spec:
+  refreshInterval: 10m # How often to resync with the key vault
+  secretStoreRef:
+    kind: SecretStore
+    name: <vault_name> # Name of the secretstore we are referencing
+
+  target:
+    name: <name_of_cert_secret_in_k8s> # Name of the cert secret to make in K8S  
+    creationPolicy: Owner
+
+    template:
+      type: kubernetes.io/tls
+      engineVersion: v2
+
+      metadata:
+        annotations:
+          reflector.v1.k8s.emberstack.com/reflection-allowed: "true"  # Set to true if this cert should appear in all namespaces
+          reflector.v1.k8s.emberstack.com/reflection-auto-enabled: "true" # Set to true if this cert should appear in all namespaces
+
+      data:
+        tls.crt: '{{ .cert | filterPEM "CERTIFICATE"}}'
+        tls.key: '{{ .cert | filterPEM "PRIVATE KEY" }}'
+
+
+  data:
+  - secretKey: cert
+    remoteRef:
+      key: secret/<cert_name_in_vault> # Name of the cert in the key vault.
+```
+
+```
+kubectl apply -f externalsecretcert.yml
+```
+
+### Create or Update the Keyvault Cert with Azure CLI
+
+AzureCLI must be installed and the cert pem files must be accessible.  
+
+Installing AzureCLI: https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-linux?pivots=apt#installation-options
+
+AzureCLI must be logged into the environment. 
+https://docs.microsoft.com/en-us/cli/azure/authenticate-azure-cli
+
+The command to create a new cert or to update an existing is identical.  
+
+Azure requires a PEM cert with both the Cert and Private Key.  This can be created with the cat command.  Assuming the file with Certs / Intermediates is named cabundle.pem and the priv key is named key.pem.  
+
+```bash
+cat cabundle.pem key.pem > combined.pem
+```
+
+```bash
+az keyvault certificate import --vault <vault_name> -n <cert_name_in_vault> -f combined.pem
+```
