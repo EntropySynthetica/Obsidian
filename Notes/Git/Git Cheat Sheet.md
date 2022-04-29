@@ -91,6 +91,12 @@ See the differences in your staged (or unstaged) changes
 Check that you can connect via SSH to git repo
 `ssh -vT git@github.com`
 
+Adding tags and pushing tags
+```
+git tag <version number>
+git push origin <version number>
+```
+
 Change the git remote location
 `git remote set-url origin https://github.com/USERNAME/REPOSITORY.git`
 

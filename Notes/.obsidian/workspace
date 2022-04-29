@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code/Go/Start a new Go Project.md",
-            "mode": "preview"
+            "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Go/Start a new Go Project.md",
+                "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Code/Go/Start a new Go Project.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-11-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubernetes External Secrets.md",
+    "Kubernetes/Azure Vault External Secrets.md",
+    "Kubernetes/K3S Notes.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Install Helm.md",
     "Private/DnD Notes/DM Notes/Main Story Outline/Mission in Dawn's Anchor.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-31-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
-    "Private/DnD Notes/My Characters/Ara Elred.md",
-    "Linux/Youtube-DL.md",
-    "Kubernetes/RKE Install.md"
+    "Private/DnD Notes/My Characters/Essaerea/Ara Elred.md"
   ]
 }
