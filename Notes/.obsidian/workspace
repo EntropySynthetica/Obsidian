@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
-            "mode": "source"
+            "file": "Linux/Youtube-DL.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
+                "file": "Linux/Youtube-DL.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Linux/Youtube-DL.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md",
     "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
-    "Git/Git Cheat Sheet.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Kubernetes/Azure Vault External Secrets.md",
-    "Kubernetes/K3S Notes.md",
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Install Helm.md",
-    "Private/DnD Notes/DM Notes/Main Story Outline/Mission in Dawn's Anchor.md",
-    "Private/DnD Notes/My Characters/Essaerea/Ara Elred.md"
+    "Kubernetes/Rancher Setup.md",
+    "Private/Radio/Interesting SWL Freqs.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-19-22 Session.md",
+    "Code/Go/Start a new Go Project.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md"
   ]
 }

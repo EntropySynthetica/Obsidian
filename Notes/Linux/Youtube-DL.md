@@ -20,3 +20,7 @@ Youtube download to MP3 example
 
 `youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=EP1mczaq3zo`
 
+
+As of 2022 yt-dlp has replaced youtube-dl
+
+Ref: https://github.com/yt-dlp/yt-dlp/
