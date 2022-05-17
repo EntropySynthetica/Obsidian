@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Youtube-DL.md",
+            "file": "Linux/SystemD_enable_and_disable_services.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Youtube-DL.md",
+                "file": "Linux/SystemD_enable_and_disable_services.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Linux/SystemD_enable_and_disable_services.md",
     "Linux/Youtube-DL.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
-    "Kubernetes/Rancher Setup.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Private/Keyboards/Group buy purchases.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-10-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-31-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
     "Private/DnD Notes/My Characters/Essaerea/Journal/4-19-22 Session.md",
-    "Code/Go/Start a new Go Project.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md"
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md",
+    "Private/Keyboards/Group buy purchases.md"
   ]
 }

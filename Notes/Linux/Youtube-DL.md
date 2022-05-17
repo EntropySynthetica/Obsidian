@@ -6,19 +6,19 @@ modified: '2020-02-02T17:47:33.874Z'
 ---
 
 # Youtube-DL
-Created Tuesday 13 December 2016
 
 To install it right away for all UNIX users (Linux, OS X, etc.), type:
-`sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl`
-
-`sudo chmod a+rx /usr/local/bin/youtube-dl`
+```
+sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+sudo chmod a+rx /usr/local/bin/yt-dlp
+```
 
 Update App
-`sudo /usr/local/bin/youtube-dl -U`
+`sudo yt-dlp -U`
 
 Youtube download to MP3 example
 
-`youtube-dl --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=EP1mczaq3zo`
+`yt-dlp --extract-audio --audio-format mp3 https://www.youtube.com/watch?v=EP1mczaq3zo`
 
 
 As of 2022 yt-dlp has replaced youtube-dl
