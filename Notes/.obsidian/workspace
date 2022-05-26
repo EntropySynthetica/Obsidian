@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/SystemD_enable_and_disable_services.md",
+            "file": "Linux/Add_user_to_Group.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/SystemD_enable_and_disable_services.md",
+                "file": "Linux/Add_user_to_Group.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Linux/Add_user_to_Group.md",
+    "Kubernetes/RKE Install.md",
+    "Git/Gitlab CI CD Notes.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-19-22 Session.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Private/Lab/SNMPD Config.md",
     "Linux/SystemD_enable_and_disable_services.md",
     "Linux/Youtube-DL.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-10-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-5-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-31-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-22-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-19-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-28-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md",
-    "Private/Keyboards/Group buy purchases.md"
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-10-22 Session.md"
   ]
 }
