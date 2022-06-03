@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Linux/Add_user_to_Group.md",
+            "file": "Azure/Terraform.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux/Add_user_to_Group.md",
+                "file": "Azure/Terraform.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Linux/Add_user_to_Group.md",
-    "Kubernetes/RKE Install.md",
-    "Git/Gitlab CI CD Notes.md",
+    "Azure/Terraform.md",
+    "Azure/Terraform Examples.md",
+    "Azure/Setup and Teardown dev K8S Cluster.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-24-22 Session.md",
     "Private/DnD Notes/My Characters/Essaerea/Journal/5-19-22 Session.md",
-    "Git/Git Cheat Sheet.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/Lab/SNMPD Config.md",
-    "Linux/SystemD_enable_and_disable_services.md",
-    "Linux/Youtube-DL.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-10-22 Session.md"
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Docker/Docker Cheat Sheet.md",
+    "Private/Keyboards/Group buy purchases.md"
   ]
 }
