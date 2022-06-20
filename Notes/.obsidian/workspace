@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Azure/Terraform.md",
+            "file": "Azure/Azure Container Registry.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Terraform.md",
+                "file": "Azure/Azure Container Registry.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Azure/Terraform.md",
+    "Azure/Azure Container Registry.md",
     "Azure/Terraform Examples.md",
-    "Azure/Setup and Teardown dev K8S Cluster.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-24-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-19-22 Session.md",
-    "Kubernetes/Kubectl Notes.md",
+    "Azure/Terraform.md",
     "Git/Git Cheat Sheet.md",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Docker/Docker Cheat Sheet.md",
-    "Private/Keyboards/Group buy purchases.md"
+    "Kubernetes/Azure Vault External Secrets.md",
+    "Code/Python/Update requirements.txt.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Code/VSCode_Settings.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Kubernetes/Install Helm.md"
   ]
 }
