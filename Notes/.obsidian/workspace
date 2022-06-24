@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Azure/Azure Container Registry.md",
+            "file": "Kubernetes/RKE Install.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Azure Container Registry.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Azure/Azure Container Registry.md",
-    "Azure/Terraform Examples.md",
-    "Azure/Terraform.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Rancher Setup.md",
     "Git/Git Cheat Sheet.md",
-    "Kubernetes/Azure Vault External Secrets.md",
-    "Code/Python/Update requirements.txt.md",
     "Code/Python/Python_Virtual_Env.md",
-    "Code/VSCode_Settings.md",
-    "Private/Keyboards/Group buy purchases.md",
-    "Kubernetes/Install Helm.md"
+    "Code/Python/Update requirements.txt.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Kubernetes/Kubernetes YAML File.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/6-17-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md"
   ]
 }
