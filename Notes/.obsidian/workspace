@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/RKE Install.md",
+            "file": "Private/Keyboards/Group buy purchases.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Private/Keyboards/Group buy purchases.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Rancher Setup.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Cooking/Bread/Baguette.md",
     "Git/Git Cheat Sheet.md",
+    "Crypto/SSH Keys.md",
     "Code/Python/Python_Virtual_Env.md",
-    "Code/Python/Update requirements.txt.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Kubernetes/Kubernetes YAML File.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/6-17-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/5-3-22 Session.md"
+    "Code/Python/Python3 Install latest on Ubuntu.md",
+    "Azure/Azure Container Registry.md",
+    "Private/Radio/Interesting SWL Freqs.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
+    "Kubernetes/RKE Install.md"
   ]
 }
