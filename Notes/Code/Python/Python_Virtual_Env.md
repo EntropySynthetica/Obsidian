@@ -11,24 +11,24 @@ Created Tuesday 18 December 2018
 
 ### Create a folder to store the virtual enviroment with this.  Creates the virtual environment inside the env directory
 
-`python3 -m venv env`
+`python3.10 -m venv env`
 
 
 ### To active the virtual enviroment go into the folder and run
 
-`source bin/activate`
+`source env/bin/activate`
 
 
 ### The command prompt should show the name of the virtual enviroment.  The enviroment can be verified with 
 
 `which python`
 and
-`pip3 list`
+`pip list`
 
 
 ### Install any required pip modules.  
 
-`pip3 install <whatever>`
+`pip install <whatever>`
 
 
 ### When done put away the virtual enviroment with

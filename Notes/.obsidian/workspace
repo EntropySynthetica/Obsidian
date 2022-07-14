@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kubernetes/RKE Install.md",
-            "mode": "preview"
+            "file": "Code/Python/Python_Virtual_Env.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Code/Python/Python_Virtual_Env.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
-    "Git/Git Cheat Sheet.md",
-    "Private/Keyboards/Group buy purchases.md",
     "Cooking/Bread/Baguette.md",
-    "Crypto/SSH Keys.md",
     "Code/Python/Python_Virtual_Env.md",
     "Code/Python/Python3 Install latest on Ubuntu.md",
-    "Azure/Azure Container Registry.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md"
+    "Git/Git Cheat Sheet.md",
+    "Linux/Useful regex searches.md",
+    "Splunk/Splunk_Regex_Test.md",
+    "Code/Python/Regex_in_Python.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/7-5-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/4-19-22 Session.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md"
   ]
 }
