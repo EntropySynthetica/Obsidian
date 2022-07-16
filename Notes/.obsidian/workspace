@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Code/Python/Python_Virtual_Env.md",
+            "file": "Kubernetes/Nginx Ingress Configs.md",
             "mode": "preview",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Python/Python_Virtual_Env.md",
+                "file": "Kubernetes/Nginx Ingress Configs.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Cooking/Bread/Baguette.md",
-    "Code/Python/Python_Virtual_Env.md",
     "Code/Python/Python3 Install latest on Ubuntu.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Music/Mandolin/Tetris A theme.md",
+    "Untitled.md",
+    "Cooking/Bread/Baguette.md",
     "Git/Git Cheat Sheet.md",
     "Linux/Useful regex searches.md",
     "Splunk/Splunk_Regex_Test.md",
-    "Code/Python/Regex_in_Python.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/7-5-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/4-19-22 Session.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/3-15-22 Session.md"
+    "Code/Python/Regex_in_Python.md"
   ]
 }
