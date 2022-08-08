@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Music/Tuning Guide.md",
+            "file": "Private/Work/Kronos Notes.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Music/Tuning Guide.md",
+                "file": "Private/Work/Kronos Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
+    "Music/Tuning Guide.md",
+    "Music/Mandolin/Zelda Overworld.md",
+    "Music/Mandolin/Super Mario Overworld.md",
+    "Music/Mandolin/FF Fanfare.md",
     "Music/Mandolin/Tetris A theme.md",
     "Kubernetes/K8S Sample Manifest.md",
     "Kubernetes/Kubectl Notes.md",
     "Kubernetes/Install Helm.md",
     "Kubernetes/K3S Notes.md",
-    "Music/Tuning Guide.md",
-    "Cooking/Bread/Baguette.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Git/Git Cheat Sheet.md",
-    "Code/Go/Start a new Go Project.md"
+    "Cooking/Bread/Baguette.md"
   ]
 }
