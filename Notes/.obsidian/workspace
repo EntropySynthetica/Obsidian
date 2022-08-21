@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/Work/Kronos Notes.md",
+            "file": "Private/Radio/Local Fargo VHF UHF.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Work/Kronos Notes.md",
+                "file": "Private/Radio/Local Fargo VHF UHF.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Music/Tuning Guide.md",
-    "Music/Mandolin/Zelda Overworld.md",
-    "Music/Mandolin/Super Mario Overworld.md",
-    "Music/Mandolin/FF Fanfare.md",
-    "Music/Mandolin/Tetris A theme.md",
-    "Kubernetes/K8S Sample Manifest.md",
+    "Private/Radio/Interesting SWL Freqs.md",
+    "Private/Radio/Local Fargo VHF UHF.md",
+    "Kubernetes/RKE Install.md",
     "Kubernetes/Kubectl Notes.md",
+    "Private/Keyboards/Group buy purchases.md",
     "Kubernetes/Install Helm.md",
-    "Kubernetes/K3S Notes.md",
-    "Cooking/Bread/Baguette.md"
+    "Git/Git Cheat Sheet.md",
+    "Crypto/Poll Website for SSL expiration_date.md",
+    "Crypto/Check HTTPS site SSL status.md",
+    "Linux/Youtube-DL.md"
   ]
 }
