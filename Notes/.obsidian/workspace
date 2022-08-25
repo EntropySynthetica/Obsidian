@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Private/Radio/Local Fargo VHF UHF.md",
-            "mode": "source",
+            "file": "Database/MySQL/MSSQL Driver for PHP 7.x.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Radio/Local Fargo VHF UHF.md",
+                "file": "Database/MySQL/MSSQL Driver for PHP 7.x.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f90070b2bda6f417",
   "lastOpenFiles": [
-    "Private/Radio/Interesting SWL Freqs.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Kubernetes/Azure Vault External Secrets.md",
+    "Kubernetes/Kubernetes External Secrets.md",
     "Private/Radio/Local Fargo VHF UHF.md",
+    "Private/Radio/Interesting SWL Freqs.md",
     "Kubernetes/RKE Install.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/Keyboards/Group buy purchases.md",
     "Kubernetes/Install Helm.md",
     "Git/Git Cheat Sheet.md",
-    "Crypto/Poll Website for SSL expiration_date.md",
-    "Crypto/Check HTTPS site SSL status.md",
-    "Linux/Youtube-DL.md"
+    "Crypto/Poll Website for SSL expiration_date.md"
   ]
 }
