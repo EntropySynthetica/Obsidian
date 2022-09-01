@@ -16,9 +16,9 @@ Every release of Helm provides binary releases for a variety of OSes. These bina
 
 * Download your https://github.com/helm/helm/releases
 
-* `curl -OL https://get.helm.sh/helm-v3.8.1-linux-amd64.tar.gz`
+* `curl -OL https://get.helm.sh/helm-v3.9.4-linux-amd64.tar.gz`
 
-* Unpack it `tar -zxvf helm-v3.8.1-linux-amd64.tar.gz`
+* Unpack it `tar -zxvf helm-v3.9.4-linux-amd64.tar.gz`
 
 * Find the helm binary in the unpacked directory, and move it to its desired destination `mv linux-amd64/helm /usr/local/bin/helm`
 
