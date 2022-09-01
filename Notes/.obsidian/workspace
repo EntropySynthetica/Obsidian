@@ -4,14 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "f90070b2bda6f417",
+        "id": "27b337d1588a1713",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Database/MySQL/MSSQL Driver for PHP 7.x.md",
+            "file": "Azure/Azure Container Registry.md",
             "mode": "preview",
-            "source": false
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "7d53cfacd2743440",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Azure/Azure Container Registry.md",
+            "mode": "preview",
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "fa9ab2d8b66eda56",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Azure/Setup and Teardown dev K8S Cluster.md",
+            "mode": "preview",
+            "source": true
           }
         }
       }
@@ -69,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/MySQL/MSSQL Driver for PHP 7.x.md",
+                "file": "Azure/Azure Container Registry.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,17 +111,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f90070b2bda6f417",
+  "active": "7d53cfacd2743440",
   "lastOpenFiles": [
-    "Private/Keyboards/Group buy purchases.md",
-    "Kubernetes/Azure Vault External Secrets.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Private/Radio/Local Fargo VHF UHF.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Kubernetes/Install Helm.md",
+    "Azure/Setup and Teardown dev K8S Cluster.md",
+    "Azure/Azure Container Registry.md",
+    "Azure/Terraform.md",
+    "Azure/Terraform Examples.md",
     "Git/Git Cheat Sheet.md",
-    "Crypto/Poll Website for SSL expiration_date.md"
+    "Git/Gitlab CI Yaml examples.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Docker/Docker Cheat Sheet.md",
+    "Code/Go/Start a new Go Project.md"
   ]
 }

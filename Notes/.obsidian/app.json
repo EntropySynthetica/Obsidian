@@ -17,5 +17,7 @@
     "Terraform",
     "HashiCorp"
   ],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "defaultViewMode": "preview",
+  "livePreview": false
 }
