@@ -4,16 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "7d53cfacd2743440",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Kubernetes/ArgoCD Notes.md",
-            "mode": "source",
-            "source": true
+        "id": "f7f6c9bd515c7a48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d53cfacd2743440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Crypto/SSH Keys.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        }
+        ]
       }
     ],
     "direction": "vertical"
@@ -31,7 +37,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           },
           {
@@ -69,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/ArgoCD Notes.md",
+                "file": "Crypto/SSH Keys.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -87,8 +95,12 @@
     "width": 300,
     "collapsed": true
   },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
   "active": "7d53cfacd2743440",
   "lastOpenFiles": [
+    "Kubernetes/ArgoCD Notes.md",
     "Cooking/Bread/Baguette.md",
     "Linux/Add_user_to_Group.md",
     "Database/Percona/Percona Cluster Setup Guide.md",
@@ -97,7 +109,6 @@
     "Kubernetes/Kubectl Notes.md",
     "Private/Radio/Local Fargo VHF UHF.md",
     "Private/Radio/Interesting SWL Freqs.md",
-    "Private/DnD Notes/My Characters/Essaerea/Ara Elred.md",
-    "Code/Python/Python_Virtual_Env.md"
+    "Private/DnD Notes/My Characters/Essaerea/Ara Elred.md"
   ]
 }
