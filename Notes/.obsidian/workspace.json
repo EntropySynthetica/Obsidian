@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f7f6c9bd515c7a48",
+        "id": "9835b6dfbf5880e4",
         "type": "tabs",
         "children": [
           {
-            "id": "7d53cfacd2743440",
+            "id": "a163afc7bb52276b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crypto/SSH Keys.md",
+                "file": "Kubernetes/RKE Install.md",
                 "mode": "preview",
                 "source": true
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Crypto/SSH Keys.md",
+                "file": "Kubernetes/RKE Install.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,20 +95,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "7d53cfacd2743440",
+  "active": "a163afc7bb52276b",
   "lastOpenFiles": [
-    "Kubernetes/ArgoCD Notes.md",
-    "Cooking/Bread/Baguette.md",
-    "Linux/Add_user_to_Group.md",
-    "Database/Percona/Percona Cluster Setup Guide.md",
-    "Git/Git Cheat Sheet.md",
-    "Git/Gitlab CI CD Notes.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/Radio/Local Fargo VHF UHF.md",
+    "Private/DnD Notes/My Characters/Essaerea/Journal/7-5-22 Session.md",
+    "Database/MySQL/MSSQL Driver for PHP 7.x.md",
+    "Database/MySQL/MySQL_Innodb_Cluster.md",
+    "Database/MySQL/MySQL Tips.md",
+    "Database/MySQL/MySQL Notes.md",
     "Private/Radio/Interesting SWL Freqs.md",
-    "Private/DnD Notes/My Characters/Essaerea/Ara Elred.md"
+    "Kubernetes/Nginx Ingress Configs.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Git/Git Cheat Sheet.md"
   ]
 }
