@@ -13,13 +13,48 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Music/Mandolin/FF Fanfare.md",
                 "mode": "preview",
                 "source": true
               }
             }
+          },
+          {
+            "id": "f02e2ac741d27576",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Delete Files Older than.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "809fdb0eaa623c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linux/Current_Kerberos_Password.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "34d5e44c2d460a86",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/RKE Install.md",
+                "file": "Linux/Delete Files Older than.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,17 +130,26 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a163afc7bb52276b",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "f02e2ac741d27576",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl Notes.md",
-    "Private/DnD Notes/My Characters/Essaerea/Journal/7-5-22 Session.md",
-    "Database/MySQL/MSSQL Driver for PHP 7.x.md",
-    "Database/MySQL/MySQL_Innodb_Cluster.md",
-    "Database/MySQL/MySQL Tips.md",
-    "Database/MySQL/MySQL Notes.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Kubernetes/Nginx Ingress Configs.md",
+    "Music/Mandolin/Chocobo Theme.md",
+    "Music/Mandolin/FF Fanfare.md",
+    "Git/Git Cheat Sheet.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Private/Lab/SNMPD Config.md",
+    "Linux/Set SNMPV3 on Ubuntu 18.04.md",
+    "Docker/Dockerfile for Go.md",
+    "Music/Tuning Guide.md",
     "Kubernetes/K8S Sample Manifest.md",
-    "Git/Git Cheat Sheet.md"
+    "Kubernetes/Nginx Ingress Configs.md"
   ]
 }
