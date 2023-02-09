@@ -70,10 +70,10 @@ spec:
   clusterIP: None  # Specify an IP for the service.  None means K8S will auto assign an IP.
 
   ports:
-	 - name: default
-	  	 port: 80 # Port the service will be listening on
-	   protocol: TCP
-	   targetPort: 80 # Port that pod(s) will be listening on
+    - name: default
+        port: 80 # Port the service will be listening on
+      protocol: TCP
+	  targetPort: 80 # Port that pod(s) will be listening on
 
   selector:
     app: demo-deploy # Traffic to this service will be routed to pod(s) with this label.
@@ -100,10 +100,10 @@ spec:
     port: 80
     protocol: TCP
     targetPort: 80
-	
+
   selector:
     app: demo-deploy
-	
+
   sessionAffinity: None
 ```
 
