@@ -73,7 +73,7 @@ spec:
     - name: default
         port: 80 # Port the service will be listening on
       protocol: TCP
-	  targetPort: 80 # Port that pod(s) will be listening on
+        targetPort: 80 # Port that pod(s) will be listening on
 
   selector:
     app: demo-deploy # Traffic to this service will be routed to pod(s) with this label.
