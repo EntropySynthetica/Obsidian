@@ -13,7 +13,7 @@ Switch to /tmp
 `cd /tmp`
 
 Download it with
-`curl -O https://dl.google.com/go/go1.19.linux-amd64.tar.gz`
+`curl -O https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz`
 
 Extract the File
 

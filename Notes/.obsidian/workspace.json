@@ -13,38 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Linux/APT_Cheat_Sheet.md",
                 "mode": "preview",
                 "source": true
               }
             }
           },
           {
-            "id": "f9ce9759dbc2936e",
+            "id": "01fff627f4c87c86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/K3S Notes.md",
+                "file": "Mac/Mac Metrics.md",
                 "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "fddd6bf73160528b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kubernetes/Kubectl Notes.md",
-                "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Kubectl Notes.md",
+                "file": "Linux/APT_Cheat_Sheet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -129,17 +116,17 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "fddd6bf73160528b",
+  "active": "a67fe3c8d7f3c06b",
   "lastOpenFiles": [
-    "Kubernetes/Install Helm.md",
-    "Kubernetes/Kubectl Notes.md",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Kubernetes/Kubernetes External Secrets.md",
-    "Kubernetes/K3S Notes.md",
-    "Kubernetes/Nginx Ingress Configs.md",
-    "Kubernetes/Install Generic K8S.md",
-    "Mac/Change Mac Hostname.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Rancher Setup.md",
     "Git/Git Cheat Sheet.md",
-    "Linux/tmux_Cheat_Sheet.md"
+    "Kubernetes/K3S Notes.md",
+    "Mac/Mac Metrics.md",
+    "Code/Go/Install WeGo Weather.md",
+    "Code/Go/Start a new Go Project.md",
+    "Code/Go/Install Go on Ubuntu.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Linux/APT_Cheat_Sheet.md"
   ]
 }
