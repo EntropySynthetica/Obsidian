@@ -6,6 +6,6 @@
     "checkbox",
     "notation-colour-blocks"
   ],
-  "translucency": true,
+  "translucency": false,
   "accentColor": ""
 }

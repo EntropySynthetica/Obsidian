@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/Radio/UV-5R TNC Cable.md",
+                "file": "Private/Radio/Interesting SWL Freqs.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "768aef73cf3fea6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kubernetes/K3S Notes.md",
                 "mode": "preview",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Radio/UV-5R TNC Cable.md",
+                "file": "Kubernetes/K3S Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -104,15 +117,23 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "01fff627f4c87c86",
+  "active": "768aef73cf3fea6b",
   "lastOpenFiles": [
+    "Kubernetes/Install Helm.md",
+    "Kubernetes/Nginx Ingress Configs.md",
+    "Linux/Delete Files Older than.md",
+    "Linux/tmux_Cheat_Sheet.md",
+    "Kubernetes/Kubectl Notes.md",
+    "Private/Radio/ARRL CW Practice Freq.md",
+    "Private/Radio/Interesting SWL Freqs.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Git/Git Cheat Sheet.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
+    "Private/Wicca/Wiccan Holidays.md",
+    "Private/Radio/UV-5R TNC Cable.md",
     "Kubernetes/RKE Install.md",
     "Kubernetes/K3S Notes.md",
-    "Private/Radio/UV-5R TNC Cable.md",
-    "Git/Git Cheat Sheet.md",
     "Kubernetes/Rancher Setup.md",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Kubernetes/Kubectl Notes.md",
     "Mac/Mac Metrics.md",
     "Private/Keyboards/Group buy purchases.md",
     "Linux/APT_Cheat_Sheet.md",
