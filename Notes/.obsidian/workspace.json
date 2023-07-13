@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6298cae6336ef38b",
+        "id": "dd8cbcbbceda613f",
         "type": "tabs",
         "children": [
           {
-            "id": "9546f5457bf74ae3",
+            "id": "340f2b89b8c2f76b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/Radio/Local Fargo VHF UHF.md",
+                "file": "Git/Git Cheat Sheet.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Radio/Local Fargo VHF UHF.md",
+                "file": "Git/Git Cheat Sheet.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,34 +111,35 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "9546f5457bf74ae3",
+  "active": "340f2b89b8c2f76b",
   "lastOpenFiles": [
-    "Private/Radio/UV-5R TNC Cable.md",
     "Kubernetes/RKE Install.md",
     "Kubernetes/Kubectl Notes.md",
+    "Kubernetes/ArgoCD Notes.md",
+    "Private/DnD Notes/Session Notes/7-10-23.md",
+    "Private/DnD Notes/Session Notes",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
+    "Linux/Youtube-DL.md",
+    "Private/Radio/Nano VNA Calibration.md",
+    "Private/Radio/Interesting SWL Freqs.md",
+    "Git/Git Cheat Sheet.md",
+    "Linux/SystemD_enable_and_disable_services.md",
+    "Private/Wicca/Wiccan Holidays.md",
+    "Kubernetes/Nginx Ingress Configs.md",
+    "Database/MySQL/MySQL Notes.md",
+    "Linux/APT_Cheat_Sheet.md",
+    "Private/Radio/Local Fargo VHF UHF.md",
+    "Private/Radio/truSDX Guide.md",
+    "Linux/tmux_Cheat_Sheet.md",
+    "Private/Radio/UV-5R TNC Cable.md",
     "Docker/Docker Cheat Sheet.md",
     "Kubernetes/Rancher Setup.md",
-    "Private/Radio/Local Fargo VHF UHF.md",
-    "Git/Git Cheat Sheet.md",
-    "Private/Wicca/Wiccan Holidays.md",
-    "Private/Radio/Interesting SWL Freqs.md",
     "Splunk/Configuration_file_precedence.md",
-    "Linux/tmux_Cheat_Sheet.md",
     "Private/Radio/HTX 245.md",
     "Linux/Nginx Proxy.md",
     "Linux/Nginx Proxy",
-    "Kubernetes/K8S Sample Manifest.md",
     "Splunk/Run_Splunk_in_Docker.md",
-    "Kubernetes/K3S Notes.md",
-    "Kubernetes/Install Helm.md",
-    "Kubernetes/Nginx Ingress Configs.md",
-    "Linux/Delete Files Older than.md",
-    "Private/Radio/ARRL CW Practice Freq.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
-    "Mac/Mac Metrics.md",
-    "Private/Keyboards/Group buy purchases.md",
-    "Linux/APT_Cheat_Sheet.md",
-    "Code/Go/Install WeGo Weather.md",
-    "Code/Go/Start a new Go Project.md"
+    "Kubernetes/K3S Notes.md"
   ]
 }
