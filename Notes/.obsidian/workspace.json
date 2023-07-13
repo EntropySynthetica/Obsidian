@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Kubernetes/Rancher Setup.md",
                 "mode": "preview",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git/Git Cheat Sheet.md",
+                "file": "Kubernetes/Rancher Setup.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -113,8 +113,9 @@
   },
   "active": "340f2b89b8c2f76b",
   "lastOpenFiles": [
-    "Kubernetes/RKE Install.md",
     "Kubernetes/Kubectl Notes.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/RKE Install.md",
     "Kubernetes/ArgoCD Notes.md",
     "Private/DnD Notes/Session Notes/7-10-23.md",
     "Private/DnD Notes/Session Notes",
@@ -123,7 +124,6 @@
     "Linux/Youtube-DL.md",
     "Private/Radio/Nano VNA Calibration.md",
     "Private/Radio/Interesting SWL Freqs.md",
-    "Git/Git Cheat Sheet.md",
     "Linux/SystemD_enable_and_disable_services.md",
     "Private/Wicca/Wiccan Holidays.md",
     "Kubernetes/Nginx Ingress Configs.md",

@@ -28,7 +28,7 @@ rancher/hello-world
 
 ## Startup rancher with self signed certs
 ```bash
-sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher --privileged rancher/rancher:v2.7.3
+sudo docker run -d --restart=unless-stopped -p 80:80 -p 443:443 -v /opt/rancher:/var/lib/rancher --privileged rancher/rancher:v2.7.5
 ```
 
 ## Startup Rancher with proper certs
@@ -39,7 +39,7 @@ docker run -d --restart=unless-stopped \
   -v /opt/certs/cert.pem:/etc/rancher/ssl/cert.pem \
   -v /opt/certs/key.pem:/etc/rancher/ssl/key.pem \
   -v /opt/certs/cacert.pem:/etc/rancher/ssl/cacerts.pem --privileged \
-  rancher/rancher:v2.7.3
+  rancher/rancher:v2.7.5
 ```
 
 ## Get the go daddy intermediate cert
