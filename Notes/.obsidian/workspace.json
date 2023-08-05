@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/Rancher Setup.md",
-                "mode": "preview",
+                "file": "Code/Code Snippets/APRS Decode.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/Rancher Setup.md",
+                "file": "Code/Code Snippets/APRS Decode.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,35 +111,37 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "340f2b89b8c2f76b",
+  "active": "7e116496a5718354",
   "lastOpenFiles": [
     "Kubernetes/Kubectl Notes.md",
-    "Git/Git Cheat Sheet.md",
-    "Kubernetes/RKE Install.md",
-    "Kubernetes/ArgoCD Notes.md",
-    "Private/DnD Notes/Session Notes/7-10-23.md",
-    "Private/DnD Notes/Session Notes",
-    "Kubernetes/K8S Sample Manifest.md",
-    "Private/DnD Notes/My Characters/Essaerea/Essaerea Backstory.md",
-    "Linux/Youtube-DL.md",
+    "Azure/Azure Container Registry.md",
+    "Code/Code Snippets/TOTP Decoder.md",
+    "Private/Radio/First WSPR Logs.md",
+    "Code/Code Snippets/MacOS 9 Hello World.md",
+    "Kubernetes/Readonly Kubeconfig.md",
+    "Code/Code Snippets/Read Serial Port.md",
+    "Code/Code Snippets/APRS Decode.md",
+    "Private/Radio/WSPR API Searches.md",
+    "Code/Code Snippets",
+    "Code/Python/Python_Virtual_Env.md",
+    "Code/Python/Code Snippets",
     "Private/Radio/Nano VNA Calibration.md",
-    "Private/Radio/Interesting SWL Freqs.md",
-    "Linux/SystemD_enable_and_disable_services.md",
-    "Private/Wicca/Wiccan Holidays.md",
-    "Kubernetes/Nginx Ingress Configs.md",
-    "Database/MySQL/MySQL Notes.md",
-    "Linux/APT_Cheat_Sheet.md",
-    "Private/Radio/Local Fargo VHF UHF.md",
-    "Private/Radio/truSDX Guide.md",
+    "Private/Radio/POTA Example CW Exchange.md",
+    "Private/DnD Notes/Session Notes/7-24-23.md",
+    "Private/DnD Notes/Session Notes/7-10-23.md",
+    "Kubernetes/Hasicorp Vault Notes.md",
+    "Kubernetes/Kubernetes Lab Setup.md",
+    "Kubernetes/Kubernetes YAML File.md",
+    "Kubernetes/Setup Kubernetes NFS Storage.md",
+    "Kubernetes/K3S Notes.md",
+    "Kubernetes/ArgoCD Notes.md",
+    "Git/Git Cheat Sheet.md",
+    "Code/Python/Update requirements.txt.md",
     "Linux/tmux_Cheat_Sheet.md",
-    "Private/Radio/UV-5R TNC Cable.md",
-    "Docker/Docker Cheat Sheet.md",
+    "Database/MySQL/MySQL Notes.md",
     "Kubernetes/Rancher Setup.md",
-    "Splunk/Configuration_file_precedence.md",
-    "Private/Radio/HTX 245.md",
-    "Linux/Nginx Proxy.md",
-    "Linux/Nginx Proxy",
-    "Splunk/Run_Splunk_in_Docker.md",
-    "Kubernetes/K3S Notes.md"
+    "Kubernetes/RKE Install.md",
+    "Private/DnD Notes/Session Notes",
+    "Linux/Nginx Proxy"
   ]
 }
