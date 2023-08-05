@@ -279,3 +279,8 @@ Extract and Decode a Secret
 ```
 kubectl get secret -n namespace1 my-postgresql -o jsonpath="{.data.postgres-password}" | base64 --decode
 ```
+
+Add Docker Registry Creds
+```
+kubectl create secret docker-registry regcred --docker-server=<your-registry-server> --docker-username=<your-name> --docker-password=<your-pword> --docker-email=<your-email>
+```
