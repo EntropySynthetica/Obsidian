@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dd8cbcbbceda613f",
+        "id": "c4c91986097e7382",
         "type": "tabs",
         "children": [
           {
-            "id": "340f2b89b8c2f76b",
+            "id": "c1caf78c6fa13001",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Code Snippets/APRS Decode.md",
+                "file": "Private/DnD Notes/Session Notes/9-4-23.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Code Snippets/APRS Decode.md",
+                "file": "Private/DnD Notes/Session Notes/9-4-23.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -111,36 +111,36 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "7e116496a5718354",
+  "active": "c1caf78c6fa13001",
   "lastOpenFiles": [
-    "Kubernetes/Kubectl Notes.md",
+    "Git/Git Cheat Sheet.md",
+    "Private/DnD Notes/Session Notes/9-4-23.md",
+    "Code/Go/Start a new Go Project.md",
+    "Kubernetes/K8S Sample Manifest.md",
+    "Database/MySQL/MySQL Notes.md",
+    "Private/Keyboards/Group buy purchases.md",
+    "Private/Radio/POTA Example CW Exchange.md",
+    "Linux/IPTables_Firewall_Script.md",
+    "Private/DnD Notes/Session Notes/8-21-23.md",
+    "Linux/APT_Cheat_Sheet.md",
+    "Private/DnD Notes/Session Notes/7-31-23.md",
+    "Private/DnD Notes/Session Notes/7-24-23.md",
     "Azure/Azure Container Registry.md",
+    "Kubernetes/RKE Install.md",
+    "Kubernetes/Rancher Setup.md",
+    "Code/Python/Regex_in_Python.md",
+    "Code/Code Snippets/APRS Decode.md",
+    "Kubernetes/Kubectl Notes.md",
     "Code/Code Snippets/TOTP Decoder.md",
     "Private/Radio/First WSPR Logs.md",
     "Code/Code Snippets/MacOS 9 Hello World.md",
     "Kubernetes/Readonly Kubeconfig.md",
     "Code/Code Snippets/Read Serial Port.md",
-    "Code/Code Snippets/APRS Decode.md",
     "Private/Radio/WSPR API Searches.md",
     "Code/Code Snippets",
     "Code/Python/Python_Virtual_Env.md",
     "Code/Python/Code Snippets",
     "Private/Radio/Nano VNA Calibration.md",
-    "Private/Radio/POTA Example CW Exchange.md",
-    "Private/DnD Notes/Session Notes/7-24-23.md",
-    "Private/DnD Notes/Session Notes/7-10-23.md",
-    "Kubernetes/Hasicorp Vault Notes.md",
-    "Kubernetes/Kubernetes Lab Setup.md",
-    "Kubernetes/Kubernetes YAML File.md",
-    "Kubernetes/Setup Kubernetes NFS Storage.md",
-    "Kubernetes/K3S Notes.md",
-    "Kubernetes/ArgoCD Notes.md",
-    "Git/Git Cheat Sheet.md",
-    "Code/Python/Update requirements.txt.md",
-    "Linux/tmux_Cheat_Sheet.md",
-    "Database/MySQL/MySQL Notes.md",
-    "Kubernetes/Rancher Setup.md",
-    "Kubernetes/RKE Install.md",
     "Private/DnD Notes/Session Notes",
     "Linux/Nginx Proxy"
   ]
