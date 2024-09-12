@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cfbdf478956fe1ed",
+        "id": "5ad18c72f611b3e8",
         "type": "tabs",
         "children": [
           {
-            "id": "8767ff1d7d74d199",
+            "id": "a47e21dffbeaaaf0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Code/Python/Python_Virtual_Env.md",
-                "mode": "preview",
+                "file": "Private/Code Project Ideas/CW Sending Practice App.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Code/Python/Python_Virtual_Env.md",
+                "file": "Private/Code Project Ideas/CW Sending Practice App.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -123,38 +123,39 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "8767ff1d7d74d199",
+  "active": "a47e21dffbeaaaf0",
   "lastOpenFiles": [
+    "Private/Website articles/Icom 7610 with Transverter on ft8.md",
+    "Private/Code Project Ideas/CW Sending Practice App.md",
+    "Private/Code Project Ideas",
+    "Linux/chmod_on_only_file_or_dir.md",
+    "Git/Git Cheat Sheet.md",
+    "Kubernetes/Azure Vault External Secrets.md",
     "Private/Radio/Tuner Settings.md",
-    "Private/Radio/QRZ Bio.md",
-    "Private/Radio/truSDX Guide.md",
-    "Code/Python/Python_Virtual_Env.md",
-    "Code/Go/Start a new Go Project.md",
-    "Crypto/SSH Keys.md",
-    "Linux/Fake Flash Drive Checker.md",
-    "Private/Radio/Nano VNA Calibration.md",
-    "Linux/APT_Cheat_Sheet.md",
-    "Private/Radio/Noise Canceling Settings.md",
-    "Azure/Azure Container Registry.md",
-    "Private/Website articles/CW Journey.md",
-    "Private/Website articles/New K3S cluster.md",
-    "Private/Website articles/Quarter Century of Radio.md",
-    "Private/Website articles/Sync Azure Keyvault to K8S.md",
-    "Kubernetes/ArgoCD Notes.md",
-    "Music/Tuning Guide.md",
-    "Splunk/Date Time Formatting.md",
-    "Private/Work/Tips for planning Tasks.md",
-    "Splunk/Regular Expressions.md",
-    "Private/Work/Writing Documentation.md",
     "Kubernetes/K8S Sample Manifest.md",
     "Kubernetes/Kubectl Notes.md",
-    "Code/VSCode_Settings.md",
-    "Linux/chmod_on_only_file_or_dir.md",
-    "Linux/Add_user_to_Group.md",
+    "Private/Radio/TinySA Harmonics Test.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Private/Work/Writing Documentation.md",
+    "Private/Work/Tips for planning Tasks.md",
+    "Private/Website articles/Sync Azure Keyvault to K8S.md",
+    "Private/Website articles/Quarter Century of Radio.md",
+    "Private/Website articles/New K3S cluster.md",
+    "Private/Website articles/CW Journey.md",
     "Private/Website articles",
+    "Private/Radio/truSDX Guide.md",
+    "Private/Radio/WSPR API Searches.md",
+    "Private/Radio/QRZ Bio.md",
+    "Private/Radio/POTA Example CW Exchange.md",
+    "Private/Radio/Noise Canceling Settings.md",
+    "Private/Radio/Nano VNA Calibration.md",
+    "Private/Radio/HTX 245.md",
+    "Private/Radio/First WSPR Logs.md",
+    "Private/Radio/Elecraft K1 Notes.md",
+    "Private/Radio/CW Nets.md",
+    "Private/DnD Notes/Session Notes",
     "Code/Code Snippets",
     "Code/Python/Code Snippets",
-    "Private/DnD Notes/Session Notes",
     "Linux/Nginx Proxy"
   ]
 }
