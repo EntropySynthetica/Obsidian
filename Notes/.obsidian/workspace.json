@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Private/Code Project Ideas/CW Sending Practice App.md",
-                "mode": "source",
+                "file": "Kubernetes/ArgoCD Notes.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Private/Code Project Ideas/CW Sending Practice App.md",
+                "file": "Kubernetes/ArgoCD Notes.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,10 @@
   },
   "active": "a47e21dffbeaaaf0",
   "lastOpenFiles": [
+    "Kubernetes/RKE Install.md",
+    "Private/Radio/QRZ Bio.md",
     "Private/Website articles/Icom 7610 with Transverter on ft8.md",
+    "Private/Radio/Nano VNA Calibration.md",
     "Private/Code Project Ideas/CW Sending Practice App.md",
     "Private/Code Project Ideas",
     "Linux/chmod_on_only_file_or_dir.md",
@@ -145,14 +148,11 @@
     "Private/Website articles",
     "Private/Radio/truSDX Guide.md",
     "Private/Radio/WSPR API Searches.md",
-    "Private/Radio/QRZ Bio.md",
     "Private/Radio/POTA Example CW Exchange.md",
     "Private/Radio/Noise Canceling Settings.md",
-    "Private/Radio/Nano VNA Calibration.md",
     "Private/Radio/HTX 245.md",
     "Private/Radio/First WSPR Logs.md",
     "Private/Radio/Elecraft K1 Notes.md",
-    "Private/Radio/CW Nets.md",
     "Private/DnD Notes/Session Notes",
     "Code/Code Snippets",
     "Code/Python/Code Snippets",
