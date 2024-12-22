@@ -13,10 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kubernetes/ArgoCD Notes.md",
+                "file": "Azure/Azure Container Registry.md",
                 "mode": "preview",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Azure Container Registry"
+            }
+          },
+          {
+            "id": "3a561699f068c89c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/Radio/Transverter Notes.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Transverter Notes"
             }
           }
         ]
@@ -39,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kubernetes/ArgoCD Notes.md",
+                "file": "Azure/Azure Container Registry.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": true,
                 "unlinkedCollapsed": false
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Azure Container Registry"
             }
           },
           {
@@ -105,7 +129,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -125,34 +151,35 @@
   },
   "active": "a47e21dffbeaaaf0",
   "lastOpenFiles": [
+    "Private/Radio/Transverter Notes.md",
+    "Windows/Check NTP Server Accuracy.md",
+    "Private/Radio/Tuner Settings.md",
+    "Code/Go/Install Go on Ubuntu.md",
+    "Code/Go/Install WeGo Weather.md",
+    "Code/Go/Start a new Go Project.md",
+    "Code/Python/Python_Virtual_Env.md",
+    "Private/Radio/truSDX Guide.md",
+    "Private/Tweet Drafts/Draft 1.md",
+    "Private/Tweet Drafts/Draft 3.md",
+    "Private/Tweet Drafts/Draft 2.md",
+    "Private/Radio/TinySA Harmonics Test.md",
+    "Private/Tweet Drafts",
+    "Private/Radio/Nano VNA Calibration.md",
+    "Kubernetes/ArgoCD Notes.md",
     "Kubernetes/RKE Install.md",
     "Private/Radio/QRZ Bio.md",
     "Private/Website articles/Icom 7610 with Transverter on ft8.md",
-    "Private/Radio/Nano VNA Calibration.md",
     "Private/Code Project Ideas/CW Sending Practice App.md",
     "Private/Code Project Ideas",
     "Linux/chmod_on_only_file_or_dir.md",
     "Git/Git Cheat Sheet.md",
     "Kubernetes/Azure Vault External Secrets.md",
-    "Private/Radio/Tuner Settings.md",
     "Kubernetes/K8S Sample Manifest.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/Radio/TinySA Harmonics Test.md",
-    "Code/Python/Python_Virtual_Env.md",
     "Private/Work/Writing Documentation.md",
     "Private/Work/Tips for planning Tasks.md",
     "Private/Website articles/Sync Azure Keyvault to K8S.md",
-    "Private/Website articles/Quarter Century of Radio.md",
-    "Private/Website articles/New K3S cluster.md",
-    "Private/Website articles/CW Journey.md",
     "Private/Website articles",
-    "Private/Radio/truSDX Guide.md",
-    "Private/Radio/WSPR API Searches.md",
-    "Private/Radio/POTA Example CW Exchange.md",
-    "Private/Radio/Noise Canceling Settings.md",
-    "Private/Radio/HTX 245.md",
-    "Private/Radio/First WSPR Logs.md",
-    "Private/Radio/Elecraft K1 Notes.md",
     "Private/DnD Notes/Session Notes",
     "Code/Code Snippets",
     "Code/Python/Code Snippets",
