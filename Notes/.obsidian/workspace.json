@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Azure/Azure Container Registry.md",
+                "file": "Docker/Install Docker on Ubuntu.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Azure Container Registry"
+              "title": "Install Docker on Ubuntu"
             }
           },
           {
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Azure/Azure Container Registry.md",
+                "file": "Docker/Install Docker on Ubuntu.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Azure Container Registry"
+              "title": "Backlinks for Install Docker on Ubuntu"
             }
           },
           {
@@ -151,9 +151,13 @@
   },
   "active": "a47e21dffbeaaaf0",
   "lastOpenFiles": [
-    "Private/Radio/Transverter Notes.md",
-    "Windows/Check NTP Server Accuracy.md",
     "Private/Radio/Tuner Settings.md",
+    "Private/Radio/Sat Notes.md",
+    "Private/Radio/Transverter Notes.md",
+    "Private/Radio/Elecraft K1 Notes.md",
+    "Kubernetes/RKE Install.md",
+    "Azure/Azure Container Registry.md",
+    "Windows/Check NTP Server Accuracy.md",
     "Code/Go/Install Go on Ubuntu.md",
     "Code/Go/Install WeGo Weather.md",
     "Code/Go/Start a new Go Project.md",
@@ -166,7 +170,6 @@
     "Private/Tweet Drafts",
     "Private/Radio/Nano VNA Calibration.md",
     "Kubernetes/ArgoCD Notes.md",
-    "Kubernetes/RKE Install.md",
     "Private/Radio/QRZ Bio.md",
     "Private/Website articles/Icom 7610 with Transverter on ft8.md",
     "Private/Code Project Ideas/CW Sending Practice App.md",
@@ -176,9 +179,6 @@
     "Kubernetes/Azure Vault External Secrets.md",
     "Kubernetes/K8S Sample Manifest.md",
     "Kubernetes/Kubectl Notes.md",
-    "Private/Work/Writing Documentation.md",
-    "Private/Work/Tips for planning Tasks.md",
-    "Private/Website articles/Sync Azure Keyvault to K8S.md",
     "Private/Website articles",
     "Private/DnD Notes/Session Notes",
     "Code/Code Snippets",
