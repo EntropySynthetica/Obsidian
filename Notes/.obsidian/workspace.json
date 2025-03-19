@@ -13,12 +13,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Install Docker on Ubuntu.md",
+                "file": "Code/Go/Install Go on Ubuntu.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Install Docker on Ubuntu"
+              "title": "Install Go on Ubuntu"
+            }
+          },
+          {
+            "id": "2fa6ca3b8b62d408",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/Radio/Sat Notes.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Sat Notes"
+            }
+          },
+          {
+            "id": "3fa1aefbb4c4c66b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/Radio/Tuner Settings.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Tuner Settings"
             }
           },
           {
@@ -35,7 +63,8 @@
               "title": "Transverter Notes"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +83,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -91,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 404.5
   },
   "right": {
     "id": "e3a315c177be3c7d",
@@ -107,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Install Docker on Ubuntu.md",
+                "file": "Private/Radio/Tuner Settings.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -117,7 +147,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Install Docker on Ubuntu"
+              "title": "Backlinks for Tuner Settings"
             }
           },
           {
@@ -149,13 +179,15 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "a47e21dffbeaaaf0",
+  "active": "3fa1aefbb4c4c66b",
   "lastOpenFiles": [
-    "Private/Radio/Tuner Settings.md",
-    "Private/Radio/Sat Notes.md",
-    "Private/Radio/Transverter Notes.md",
-    "Private/Radio/Elecraft K1 Notes.md",
     "Kubernetes/RKE Install.md",
+    "Private/Radio/Tuner Settings.md",
+    "Private/Radio/Transverter Notes.md",
+    "Private/Radio/Sat Notes.md",
+    "Private/Radio/Nano VNA Calibration.md",
+    "Docker/Install Docker on Ubuntu.md",
+    "Private/Radio/Elecraft K1 Notes.md",
     "Azure/Azure Container Registry.md",
     "Windows/Check NTP Server Accuracy.md",
     "Code/Go/Install Go on Ubuntu.md",
@@ -168,7 +200,6 @@
     "Private/Tweet Drafts/Draft 2.md",
     "Private/Radio/TinySA Harmonics Test.md",
     "Private/Tweet Drafts",
-    "Private/Radio/Nano VNA Calibration.md",
     "Kubernetes/ArgoCD Notes.md",
     "Private/Radio/QRZ Bio.md",
     "Private/Website articles/Icom 7610 with Transverter on ft8.md",
@@ -178,7 +209,6 @@
     "Git/Git Cheat Sheet.md",
     "Kubernetes/Azure Vault External Secrets.md",
     "Kubernetes/K8S Sample Manifest.md",
-    "Kubernetes/Kubectl Notes.md",
     "Private/Website articles",
     "Private/DnD Notes/Session Notes",
     "Code/Code Snippets",
